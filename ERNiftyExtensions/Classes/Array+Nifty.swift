@@ -1,3 +1,10 @@
+//
+//  Array+Nifty.swift
+//  Pods
+//
+//  Created by Ephraim Russo on 6/5/17.
+//
+//
 
 extension Array {
     

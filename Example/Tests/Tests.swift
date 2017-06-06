@@ -23,4 +23,11 @@ class Tests: XCTestCase {
         XCTAssert(t.count == 4)
         XCTAssertNil(t.remove("Bill"))
     }
+    
+    func testBundle() {
+        
+        let b: String? = Bundle.main.object(forInfoPlistKey: String(kCFBundleInfoDictionaryVersionKey))
+        
+        XCTAssertNotNil(b)
+    }
 }

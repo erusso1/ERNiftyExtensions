@@ -13,7 +13,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.  
+        loadCAGradient()
+    }
+    
+    fileprivate func loadCAGradient() {
+        
+        let v = UIView()
+        v.frame.size = CGSize(width: 200, height: 200)
+        v.center.x = UIScreen.main.bounds.size.width/2
+        v.center.y = UIScreen.main.bounds.size.height/2
+        
+        v.gradient = CAGradientLayer.from(colors: [.red, .green, .blue])
+        
+        self.view.addSubview(v)
     }
 
     override func didReceiveMemoryWarning() {
