@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ERNiftyExtensions_Example' do
+  pod 'ERNiftyExtensions', :path => '../'
+
+  target 'ERNiftyExtensions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
