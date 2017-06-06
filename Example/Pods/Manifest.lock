@@ -1,0 +1,16 @@
+PODS:
+  - ERNiftyExtensions (0.1.0)
+
+DEPENDENCIES:
+  - ERNiftyExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  ERNiftyExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ERNiftyExtensions: 5449c11bf363a44f848fee68d818f5ae3a5737a7
+
+PODFILE CHECKSUM: 80db68d0aa4f3a407c70045e8c27e82daa22d0dc
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,22 @@
+{
+  "name": "ERNiftyExtensions",
+  "version": "0.1.0",
+  "summary": "A short description of ERNiftyExtensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/erusso1/ERNiftyExtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "erusso1": "ephraim.s.russo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/erusso1/ERNiftyExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ERNiftyExtensions/Classes/**/*"
+}
