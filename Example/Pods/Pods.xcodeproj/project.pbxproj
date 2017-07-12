@@ -35,6 +35,13 @@
 		F3932A311F15BD3B00C74524 /* UICollectionView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A301F15BD3B00C74524 /* UICollectionView+Nifty.swift */; };
 		F3932A331F15BD6D00C74524 /* UICollectionReusableView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A321F15BD6D00C74524 /* UICollectionReusableView+Nifty.swift */; };
 		F3932A351F15BD9E00C74524 /* UIColor+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A341F15BD9E00C74524 /* UIColor+Nifty.swift */; };
+		F3932A371F15D35100C74524 /* UILabel+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A361F15D35100C74524 /* UILabel+Nifty.swift */; };
+		F3932A391F15D36D00C74524 /* UITableView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A381F15D36D00C74524 /* UITableView+Nifty.swift */; };
+		F3932A3B1F15D39000C74524 /* UITableViewCell+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A3A1F15D39000C74524 /* UITableViewCell+Nifty.swift */; };
+		F3932A3D1F15D3AF00C74524 /* UITextField+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A3C1F15D3AF00C74524 /* UITextField+Nifty.swift */; };
+		F3932A3F1F15D3CC00C74524 /* UIStoryboard+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A3E1F15D3CC00C74524 /* UIStoryboard+Nifty.swift */; };
+		F3932A411F15D4E700C74524 /* UIViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A401F15D4E700C74524 /* UIViewController+Nifty.swift */; };
+		F3932A431F15D52600C74524 /* Global+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A421F15D52600C74524 /* Global+Nifty.swift */; };
 		FC51A04C5865F5CCF9A14BC3B01CDD27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +105,13 @@
 		F3932A301F15BD3B00C74524 /* UICollectionView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Nifty.swift"; sourceTree = "<group>"; };
 		F3932A321F15BD6D00C74524 /* UICollectionReusableView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Nifty.swift"; sourceTree = "<group>"; };
 		F3932A341F15BD9E00C74524 /* UIColor+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Nifty.swift"; sourceTree = "<group>"; };
+		F3932A361F15D35100C74524 /* UILabel+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Nifty.swift"; sourceTree = "<group>"; };
+		F3932A381F15D36D00C74524 /* UITableView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Nifty.swift"; sourceTree = "<group>"; };
+		F3932A3A1F15D39000C74524 /* UITableViewCell+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Nifty.swift"; sourceTree = "<group>"; };
+		F3932A3C1F15D3AF00C74524 /* UITextField+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Nifty.swift"; sourceTree = "<group>"; };
+		F3932A3E1F15D3CC00C74524 /* UIStoryboard+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Nifty.swift"; sourceTree = "<group>"; };
+		F3932A401F15D4E700C74524 /* UIViewController+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nifty.swift"; sourceTree = "<group>"; };
+		F3932A421F15D52600C74524 /* Global+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Global+Nifty.swift"; sourceTree = "<group>"; };
 		F4260F8CF720E8A6267FA0509E4D9CA4 /* ERNiftyExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ERNiftyExtensions.xcconfig; sourceTree = "<group>"; };
 		F7B566BFDC9F162CB557523701FF7E7E /* Pods-ERNiftyExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERNiftyExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -267,15 +281,22 @@
 				F3932A1C1F15BB4E00C74524 /* Date+Nifty.swift */,
 				F3932A1E1F15BBB300C74524 /* Double+Nifty.swift */,
 				F3932A221F15BC1C00C74524 /* Error+Nifty.swift */,
+				F3932A421F15D52600C74524 /* Global+Nifty.swift */,
 				F3932A261F15BC6B00C74524 /* IndexPath+Nifty.swift */,
 				F3932A281F15BC7900C74524 /* Int+Nifty.swift */,
 				F3932A2A1F15BCA900C74524 /* NSObject+Nifty.swift */,
 				F3932A2C1F15BCBF00C74524 /* RawRepresentable+Nifty.swift */,
 				F3932A2E1F15BCEA00C74524 /* String+Nifty.swift */,
-				235F528244AF1D5E4531AF2B035234D6 /* UIView+Nifty.swift */,
-				F3932A301F15BD3B00C74524 /* UICollectionView+Nifty.swift */,
 				F3932A321F15BD6D00C74524 /* UICollectionReusableView+Nifty.swift */,
+				F3932A301F15BD3B00C74524 /* UICollectionView+Nifty.swift */,
 				F3932A341F15BD9E00C74524 /* UIColor+Nifty.swift */,
+				F3932A361F15D35100C74524 /* UILabel+Nifty.swift */,
+				F3932A3E1F15D3CC00C74524 /* UIStoryboard+Nifty.swift */,
+				F3932A381F15D36D00C74524 /* UITableView+Nifty.swift */,
+				F3932A3A1F15D39000C74524 /* UITableViewCell+Nifty.swift */,
+				F3932A3C1F15D3AF00C74524 /* UITextField+Nifty.swift */,
+				235F528244AF1D5E4531AF2B035234D6 /* UIView+Nifty.swift */,
+				F3932A401F15D4E700C74524 /* UIViewController+Nifty.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -415,12 +436,17 @@
 				F3932A1B1F15BB2E00C74524 /* Data+Nifty.swift in Sources */,
 				F3932A2D1F15BCBF00C74524 /* RawRepresentable+Nifty.swift in Sources */,
 				F3932A271F15BC6B00C74524 /* IndexPath+Nifty.swift in Sources */,
+				F3932A391F15D36D00C74524 /* UITableView+Nifty.swift in Sources */,
+				F3932A411F15D4E700C74524 /* UIViewController+Nifty.swift in Sources */,
 				F3932A2B1F15BCA900C74524 /* NSObject+Nifty.swift in Sources */,
+				F3932A3D1F15D3AF00C74524 /* UITextField+Nifty.swift in Sources */,
 				19989499ECB578A7C9B4DB697999CC0B /* Array+Nifty.swift in Sources */,
 				F3932A251F15BC4A00C74524 /* CLLocation+Nifty.swift in Sources */,
+				F3932A3B1F15D39000C74524 /* UITableViewCell+Nifty.swift in Sources */,
 				F3932A311F15BD3B00C74524 /* UICollectionView+Nifty.swift in Sources */,
 				F3932A351F15BD9E00C74524 /* UIColor+Nifty.swift in Sources */,
 				F3932A2F1F15BCEA00C74524 /* String+Nifty.swift in Sources */,
+				F3932A3F1F15D3CC00C74524 /* UIStoryboard+Nifty.swift in Sources */,
 				E78FCFD63244E5EA74B23BC501CE23BB /* Bundle+Nifty.swift in Sources */,
 				F3932A1D1F15BB4E00C74524 /* Date+Nifty.swift in Sources */,
 				719441A027163C01C37D1610331C9495 /* CAGradientLayer+Nifty.swift in Sources */,
@@ -430,6 +456,8 @@
 				F3932A1F1F15BBB300C74524 /* Double+Nifty.swift in Sources */,
 				F3932A211F15BC0200C74524 /* CGSize+Nifty.swift in Sources */,
 				F3932A331F15BD6D00C74524 /* UICollectionReusableView+Nifty.swift in Sources */,
+				F3932A431F15D52600C74524 /* Global+Nifty.swift in Sources */,
+				F3932A371F15D35100C74524 /* UILabel+Nifty.swift in Sources */,
 				96F4424AC5323AB6E9397E96A7415BAC /* UIView+Nifty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
