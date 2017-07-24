@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ERNiftyExtensions'
-  s.version          = '1.0'
+  s.version          = "1.1"
   s.summary          = 'A library of helpful extensions for UIKit & Foundation that one iOS developer has picked up over the years.'
 
 # This description is used to generate tags and improve search results.
