@@ -41,7 +41,6 @@
 		F3932A3D1F15D3AF00C74524 /* UITextField+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A3C1F15D3AF00C74524 /* UITextField+Nifty.swift */; };
 		F3932A3F1F15D3CC00C74524 /* UIStoryboard+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A3E1F15D3CC00C74524 /* UIStoryboard+Nifty.swift */; };
 		F3932A411F15D4E700C74524 /* UIViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A401F15D4E700C74524 /* UIViewController+Nifty.swift */; };
-		F3932A431F15D52600C74524 /* Global+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A421F15D52600C74524 /* Global+Nifty.swift */; };
 		F3BCCCB21F259C2C00ED647B /* NSMutableAttributedString+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BCCCB11F259C2C00ED647B /* NSMutableAttributedString+Nifty.swift */; };
 		FC51A04C5865F5CCF9A14BC3B01CDD27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -112,7 +111,6 @@
 		F3932A3C1F15D3AF00C74524 /* UITextField+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Nifty.swift"; sourceTree = "<group>"; };
 		F3932A3E1F15D3CC00C74524 /* UIStoryboard+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Nifty.swift"; sourceTree = "<group>"; };
 		F3932A401F15D4E700C74524 /* UIViewController+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nifty.swift"; sourceTree = "<group>"; };
-		F3932A421F15D52600C74524 /* Global+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Global+Nifty.swift"; sourceTree = "<group>"; };
 		F3BCCCB11F259C2C00ED647B /* NSMutableAttributedString+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Nifty.swift"; sourceTree = "<group>"; };
 		F4260F8CF720E8A6267FA0509E4D9CA4 /* ERNiftyExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ERNiftyExtensions.xcconfig; sourceTree = "<group>"; };
 		F7B566BFDC9F162CB557523701FF7E7E /* Pods-ERNiftyExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERNiftyExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -283,7 +281,6 @@
 				F3932A1C1F15BB4E00C74524 /* Date+Nifty.swift */,
 				F3932A1E1F15BBB300C74524 /* Double+Nifty.swift */,
 				F3932A221F15BC1C00C74524 /* Error+Nifty.swift */,
-				F3932A421F15D52600C74524 /* Global+Nifty.swift */,
 				F3932A261F15BC6B00C74524 /* IndexPath+Nifty.swift */,
 				F3932A281F15BC7900C74524 /* Int+Nifty.swift */,
 				F3BCCCB11F259C2C00ED647B /* NSMutableAttributedString+Nifty.swift */,
@@ -460,7 +457,6 @@
 				F3932A1F1F15BBB300C74524 /* Double+Nifty.swift in Sources */,
 				F3932A211F15BC0200C74524 /* CGSize+Nifty.swift in Sources */,
 				F3932A331F15BD6D00C74524 /* UICollectionReusableView+Nifty.swift in Sources */,
-				F3932A431F15D52600C74524 /* Global+Nifty.swift in Sources */,
 				F3932A371F15D35100C74524 /* UILabel+Nifty.swift in Sources */,
 				96F4424AC5323AB6E9397E96A7415BAC /* UIView+Nifty.swift in Sources */,
 			);
