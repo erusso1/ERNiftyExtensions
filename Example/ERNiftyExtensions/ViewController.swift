@@ -13,8 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadCAGradient()
-        test()
+        //loadCAGradient()
+        loadCorners()
+        //test()
     }
     
     fileprivate func loadCAGradient() {
@@ -25,6 +26,19 @@ class ViewController: UIViewController {
         v.center.y = UIScreen.main.bounds.size.height/2
         
         v.gradient = CAGradientLayer.from(colors: [.red, .green, .blue])
+        
+        self.view.addSubview(v)
+    }
+    
+    fileprivate func loadCorners() {
+        
+        let v = UIView()
+        v.frame.size = CGSize(width: 200, height: 200)
+        v.center.x = UIScreen.main.bounds.size.width/2
+        v.center.y = UIScreen.main.bounds.size.height/2
+        v.backgroundColor = .green
+
+        v.roundCorners(corners: [.topRight, .bottomRight], radius: 4)
         
         self.view.addSubview(v)
     }
