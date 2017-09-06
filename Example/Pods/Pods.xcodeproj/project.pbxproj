@@ -20,6 +20,7 @@
 		D672CDEE18AD04920310093109A34CF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		D993E432820CEF154BB791505E50567D /* Pods-ERNiftyExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D037BFAF15FDF5D21632E1B627472D /* Pods-ERNiftyExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E78FCFD63244E5EA74B23BC501CE23BB /* Bundle+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0F68F0847267824DEBF3E2FD3B4534 /* Bundle+Nifty.swift */; };
+		F34E6AEE1F5F7C4000A79E5B /* UIPageViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E6AED1F5F7C4000A79E5B /* UIPageViewController+Nifty.swift */; };
 		F35A9C73349B64507985EDB12746BA20 /* Pods-ERNiftyExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A56B191701ECD6E30E7D778A32A783F /* Pods-ERNiftyExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3932A1B1F15BB2E00C74524 /* Data+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A1A1F15BB2E00C74524 /* Data+Nifty.swift */; };
 		F3932A1D1F15BB4E00C74524 /* Date+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3932A1C1F15BB4E00C74524 /* Date+Nifty.swift */; };
@@ -91,6 +92,7 @@
 		D6E5BB1C2E112967A04809A519C9A7B1 /* ERNiftyExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ERNiftyExtensions.modulemap; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DCC3D20E96A06594015F2F385A963463 /* Pods_ERNiftyExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERNiftyExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34E6AED1F5F7C4000A79E5B /* UIPageViewController+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+Nifty.swift"; sourceTree = "<group>"; };
 		F3932A1A1F15BB2E00C74524 /* Data+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Nifty.swift"; sourceTree = "<group>"; };
 		F3932A1C1F15BB4E00C74524 /* Date+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Nifty.swift"; sourceTree = "<group>"; };
 		F3932A1E1F15BBB300C74524 /* Double+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Nifty.swift"; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 				F3932A301F15BD3B00C74524 /* UICollectionView+Nifty.swift */,
 				F3932A341F15BD9E00C74524 /* UIColor+Nifty.swift */,
 				F3932A361F15D35100C74524 /* UILabel+Nifty.swift */,
+				F34E6AED1F5F7C4000A79E5B /* UIPageViewController+Nifty.swift */,
 				F3932A3E1F15D3CC00C74524 /* UIStoryboard+Nifty.swift */,
 				F3932A381F15D36D00C74524 /* UITableView+Nifty.swift */,
 				F3932A3A1F15D39000C74524 /* UITableViewCell+Nifty.swift */,
@@ -432,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34E6AEE1F5F7C4000A79E5B /* UIPageViewController+Nifty.swift in Sources */,
 				F3932A291F15BC7900C74524 /* Int+Nifty.swift in Sources */,
 				F3932A1B1F15BB2E00C74524 /* Data+Nifty.swift in Sources */,
 				F3932A2D1F15BCBF00C74524 /* RawRepresentable+Nifty.swift in Sources */,
