@@ -99,7 +99,9 @@
 				024D179D766CB00D3BE34288 /* Pods */,
 				58B230DA14514913F81F1045 /* Frameworks */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;

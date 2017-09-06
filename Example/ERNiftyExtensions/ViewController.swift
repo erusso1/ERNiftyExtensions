@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadCAGradient()
+        test()
     }
     
     fileprivate func loadCAGradient() {
@@ -27,6 +28,15 @@ class ViewController: UIViewController {
         
         self.view.addSubview(v)
     }
+  
+
+    fileprivate func test() {
+        
+        guard let s: ExampleViewController = UIStoryboard.named("Main").viewController() else {return}
+        
+        print(s)
+    }
+  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -35,3 +45,7 @@ class ViewController: UIViewController {
 
 }
 
+class ExampleViewController: UIViewController {
+  
+  
+}
