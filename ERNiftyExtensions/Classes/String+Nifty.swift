@@ -40,6 +40,11 @@ extension String {
     return max(maxHeight, minHeight)
   }
   
+  public func widthFromBoundedHeight(_ height: CGFloat, font: UIFont) -> CGFloat {
+    
+    return (self as NSString).boundingRect(with: CGSize.init(width: CGFloat(Int.max), height: height), options: [.usesLineFragmentOrigin], attributes: [.font : font], context: nil).width
+  }
+  
   public func substringSeparatedBy(separator: String) -> String? {
     if let substring = self.components(separatedBy: separator).last {
       return substring
