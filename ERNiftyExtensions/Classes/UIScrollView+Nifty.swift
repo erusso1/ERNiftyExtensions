@@ -15,4 +15,8 @@ extension UIScrollView {
     
     self.setContentOffset(CGPoint(x: 0, y: yOffset), animated: animated)
   }
+  
+  public var isScrolledToBottom: Bool { let yOffset = self.contentSize.height - self.bounds.size.height + self.contentInset.bottom; return self.contentOffset.y == yOffset  }
 }
+
+
