@@ -46,7 +46,7 @@ class ViewController: UIViewController {
 
     fileprivate func test() {
         
-        guard let s: ExampleViewController = UIStoryboard.named("Main").viewController() else {return}
+        guard let s: ExampleViewController = UIStoryboard.named("Main").instantiated() else {return}
         
         print(s)
     }
