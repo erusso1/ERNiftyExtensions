@@ -8,7 +8,7 @@
 
 extension UIView {
   
-  public func viewController() -> UIViewController? {
+  public func containingViewController() -> UIViewController? {
     
     var nextResponder: UIResponder? = self
     
