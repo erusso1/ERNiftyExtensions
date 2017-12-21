@@ -69,7 +69,7 @@ extension UIView {
   
   public var snapshotImage:UIImage? {
     
-    UIGraphicsBeginImageContext(bounds.size)
+    UIGraphicsBeginImageContextWithOptions(bounds.size, false, UIScreen.main.scale)
     layer.render(in: UIGraphicsGetCurrentContext()!)
     let screenshot:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
     UIGraphicsEndImageContext()
