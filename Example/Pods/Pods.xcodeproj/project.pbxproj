@@ -117,6 +117,7 @@
 		EE35A401D9297E46DA0C38E1F1E8F08D /* UITextField+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6575B2661C385FA250A39954F2FE7785 /* UITextField+Nifty.swift */; };
 		F35A9C73349B64507985EDB12746BA20 /* Pods-ERNiftyExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A56B191701ECD6E30E7D778A32A783F /* Pods-ERNiftyExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F380212B2BD87319482DFCA329F9DF3E /* Date+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA465439B4E588CB6604811ABFC3A5 /* Date+Nifty.swift */; };
+		F3D8B45A1FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D8B4591FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift */; };
 		F772365F81523DD4BCFC9459D5B93BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEA90294F1A21EA8573E47F2A5F465B /* Foundation.framework */; };
 		F865F843A7A1AC0E66DD45E7504D6248 /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EDD1F6337D06D4759218175928A6A3 /* BlockModeWorker.swift */; };
 /* End PBXBuildFile section */
@@ -296,6 +297,7 @@
 		F089E4EB66B5E1860DB0CF7B40BDC2D7 /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
 		F1EE52D97230F701D710FB0C8212B548 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
 		F1FE0E917FDE7FF6A702EA3051117231 /* CLLocation+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Nifty.swift"; path = "ERNiftyExtensions/Classes/CLLocation+Nifty.swift"; sourceTree = "<group>"; };
+		F3D8B4591FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGAffineTransform+Nifty.swift"; path = "ERNiftyExtensions/Classes/CGAffineTransform+Nifty.swift"; sourceTree = "<group>"; };
 		F67AD0AB7B0CAA631E9F1E0CBA31D84B /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
 		F767C7222B68C38C9519571C64F3055F /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
 		F7B566BFDC9F162CB557523701FF7E7E /* Pods-ERNiftyExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERNiftyExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -471,6 +473,7 @@
 				288E716F6913351E7D6684DCBB2F6B36 /* Bundle+Nifty.swift */,
 				13F3C9107093971E2BCAF65F255F6E96 /* CAGradientLayer+Nifty.swift */,
 				1774ED892B72A455F0C9DA8FDDEE2F0A /* CALayer+Nifty.swift */,
+				F3D8B4591FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift */,
 				4785CE46BC0569D7A96C350EA758FA45 /* CGSize+Nifty.swift */,
 				F1FE0E917FDE7FF6A702EA3051117231 /* CLLocation+Nifty.swift */,
 				C58817D87BA3F7FE4EC7440D05AE1135 /* Data+Nifty.swift */,
@@ -894,6 +897,7 @@
 				2FF6D0FAB3060935DBCEFBA3B6D33E1E /* UIPageViewController+Nifty.swift in Sources */,
 				2A1F0FE610C9301C627BC67A42E723C8 /* UIScrollView+Nifty.swift in Sources */,
 				CAAA4A22CDEC8445DBD6015DA3D98A76 /* UIStoryboard+Nifty.swift in Sources */,
+				F3D8B45A1FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift in Sources */,
 				91C6C94E74B1C70B55E7D919CD968694 /* UITableView+Nifty.swift in Sources */,
 				C48558591CBA6BA413B818396E661BED /* UITableViewCell+Nifty.swift in Sources */,
 				EE35A401D9297E46DA0C38E1F1E8F08D /* UITextField+Nifty.swift in Sources */,
