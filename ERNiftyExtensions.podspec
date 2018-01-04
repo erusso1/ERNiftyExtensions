@@ -34,7 +34,9 @@ Pod::Spec.new do |s|
   #   'ERNiftyExtensions' => ['ERNiftyExtensions/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation', 'CoreLocation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'CryptoSwift'
+  s.dependency 'CommonCrypto'
+
 end
