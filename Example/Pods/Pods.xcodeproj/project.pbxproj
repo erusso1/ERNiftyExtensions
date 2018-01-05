@@ -115,6 +115,7 @@
 		EB0EFF83DD6F8E6CBE16857F969E6B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEA90294F1A21EA8573E47F2A5F465B /* Foundation.framework */; };
 		ECE75FBFCDBB2646EE47C9CB528B1D9C /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD92A185E1A4D35F17A81B3DEE84C97 /* BatchedCollection.swift */; };
 		EE35A401D9297E46DA0C38E1F1E8F08D /* UITextField+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6575B2661C385FA250A39954F2FE7785 /* UITextField+Nifty.swift */; };
+		F314B3411FFF27EE00D2A4B7 /* Notification.Name+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314B3401FFF27ED00D2A4B7 /* Notification.Name+Nifty.swift */; };
 		F35A9C73349B64507985EDB12746BA20 /* Pods-ERNiftyExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A56B191701ECD6E30E7D778A32A783F /* Pods-ERNiftyExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F380212B2BD87319482DFCA329F9DF3E /* Date+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA465439B4E588CB6604811ABFC3A5 /* Date+Nifty.swift */; };
 		F3D8B45A1FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D8B4591FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift */; };
@@ -297,6 +298,7 @@
 		F089E4EB66B5E1860DB0CF7B40BDC2D7 /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
 		F1EE52D97230F701D710FB0C8212B548 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
 		F1FE0E917FDE7FF6A702EA3051117231 /* CLLocation+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Nifty.swift"; path = "ERNiftyExtensions/Classes/CLLocation+Nifty.swift"; sourceTree = "<group>"; };
+		F314B3401FFF27ED00D2A4B7 /* Notification.Name+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notification.Name+Nifty.swift"; path = "ERNiftyExtensions/Classes/Notification.Name+Nifty.swift"; sourceTree = "<group>"; };
 		F3D8B4591FFEA9620012D4E5 /* CGAffineTransform+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGAffineTransform+Nifty.swift"; path = "ERNiftyExtensions/Classes/CGAffineTransform+Nifty.swift"; sourceTree = "<group>"; };
 		F67AD0AB7B0CAA631E9F1E0CBA31D84B /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
 		F767C7222B68C38C9519571C64F3055F /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
@@ -482,6 +484,7 @@
 				1079B15908F69968730699BCC3A2813B /* Error+Nifty.swift */,
 				6E1D2BD227F9C8AA4E0007C8A369208B /* IndexPath+Nifty.swift */,
 				80A884F0FF32425B726BDDA18C991C75 /* Int+Nifty.swift */,
+				F314B3401FFF27ED00D2A4B7 /* Notification.Name+Nifty.swift */,
 				24B165BF8DFE17E7E7326918F7FA2519 /* NSMutableAttributedString+Nifty.swift */,
 				93D4BF805B9222B8E8A3D84CFB2621FF /* NSObject+Nifty.swift */,
 				099424814FAFD06BC529E83EB55DB514 /* RawRepresentable+Nifty.swift */,
@@ -884,6 +887,7 @@
 				786BBE5CF35CD48CFBA0219F0761E996 /* Double+Nifty.swift in Sources */,
 				5D1431F2F6B707EC7C6ABB72AAD39D73 /* ERNiftyExtensions-dummy.m in Sources */,
 				E24BEA47419C597829740D7C4FA48DCE /* Error+Nifty.swift in Sources */,
+				F314B3411FFF27EE00D2A4B7 /* Notification.Name+Nifty.swift in Sources */,
 				6A3710EFC568E40DDE8F36C04E439057 /* IndexPath+Nifty.swift in Sources */,
 				803497BF58AC56D65127555BF48FF2FA /* Int+Nifty.swift in Sources */,
 				3E14492F2DA79F10567633188894EFFE /* NSMutableAttributedString+Nifty.swift in Sources */,
