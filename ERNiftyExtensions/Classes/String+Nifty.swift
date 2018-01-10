@@ -30,6 +30,9 @@ extension String {
     formatter.numberStyle = .decimal
     return formatter.number(from: self)?.doubleValue
   }
+   
+  /// Returns only the numerical digit characters found within the String.
+  public var digits: String { return components(separatedBy: CharacterSet.decimalDigits.inverted).joined() }
   
   /// Returns the height of the bounding width using the specified font.
   public func heightFromBoundedWidth(_ width:CGFloat, font:UIFont) -> CGFloat {
