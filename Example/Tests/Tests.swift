@@ -30,4 +30,35 @@ class Tests: XCTestCase {
         
         XCTAssertNotNil(b)
     }
+    
+    func testRandomInt() {
+        
+        var minimum = Int.max
+        
+        var maximum = 0
+        
+        let lowerBound = 3
+        
+        let upperBound = 7
+        
+        for _ in 0..<100 {
+        
+            let rand = Int.random(between: lowerBound...upperBound)
+            
+            minimum = min(minimum, rand)
+            
+            maximum = max(maximum, rand)
+            
+            print(rand)
+        }
+        
+        print("Min value: \(minimum)")
+        
+        print("Max value: \(maximum)")
+        
+        XCTAssert(minimum == lowerBound, "The minimum value generated is less than the lower bound.")
+        
+        XCTAssert(maximum == upperBound, "The maximum value generated is greater than the upper bound.")
+
+    }
 }
