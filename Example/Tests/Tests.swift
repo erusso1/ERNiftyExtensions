@@ -61,4 +61,14 @@ class Tests: XCTestCase {
         XCTAssert(maximum == upperBound, "The maximum value generated is greater than the upper bound.")
 
     }
+
+    func testRandomDouble() {
+        
+        for _ in 0..<100 {
+            
+            let rand = Double.random(between: 0.0...1.0).roundedTo(places: 2)
+            
+            print(rand)
+        }
+    }
 }
