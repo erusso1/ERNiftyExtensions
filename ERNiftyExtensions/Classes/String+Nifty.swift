@@ -19,10 +19,10 @@ extension String {
   
   /// Returns a `true` if the receiver is in email format.
   public var isEmail: Bool {
-    guard let regex = try? NSRegularExpression(pattern: "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$", options: .caseInsensitive) else {return false}
-    return regex.firstMatch(in: self, options: [], range: NSMakeRange(0, self.length)) != nil
+      guard let regex = try? NSRegularExpression(pattern: "[A-Z0-9a-z.-_]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,3}", options: .caseInsensitive) else {return false}
+      return regex.firstMatch(in: self, options: [], range: NSMakeRange(0, self.count)) != nil
   }
-  
+    
   /// Returns the decimal representation.
   public var decimal:Double? {
     
