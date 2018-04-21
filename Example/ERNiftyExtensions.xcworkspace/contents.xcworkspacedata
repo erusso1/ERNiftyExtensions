@@ -5,6 +5,6 @@
       location = "group:ERNiftyExtensions.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/ephraimrusso/Local/ERNiftyExtensions/Example/Pods/Pods.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
