@@ -169,7 +169,7 @@ extension UIView {
         
         attributes.forEach { attribute in
             
-            self.addConstraint(NSLayoutConstraint(item: self, attribute: attribute, relatedBy: .equal, toItem: containingView, attribute: attribute, multiplier: 1, constant: 0))
+            NSLayoutConstraint(item: self, attribute: attribute, relatedBy: .equal, toItem: containingView, attribute: attribute, multiplier: 1, constant: 0).isActive = true            
         }
     }
 }
