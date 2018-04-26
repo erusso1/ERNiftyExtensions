@@ -71,4 +71,42 @@ class Tests: XCTestCase {
             print(rand)
         }
     }
+    
+    func testRandomString() {
+        
+        for _ in 0..<100 {
+            
+            print(String.random(length: 128))
+        }
+    }
+    
+    func testEncryption() {
+        
+        let key = String.random(length: 32)
+        
+        let iv = String.random(length: 16)
+
+        let json = ["username" : "SkankHunt42", "token" : "wkbvwkrgvhwbgirkwirubgliwrngli", "SSN" : "123-45-6789"]
+        
+        let rawData = try! JSONSerialization.data(withJSONObject: json, options: [])
+        
+        print("Raw data: \(rawData)")
+
+        print("")
+        let encryptedData = rawData.encrptedAES(withKey: key, iv: iv)
+        
+        print("Encrypted data: \(encryptedData)")
+        print("")
+
+        let decryptedData = encryptedData.decryptedAES(withKey: key, iv: iv)
+        
+        print("Decrypted data: \(decryptedData)")
+        print("")
+        
+        print(try! JSONSerialization.jsonObject(with: decryptedData, options: []))
+
+        //print(String.init(data: rawData, encoding: .utf8)!, String.init(data: encryptedData, encoding: .utf8)!, String.init(data: decryptedData, encoding: .utf8)!)
+
+        XCTAssertEqual(decryptedData, rawData)
+    }
 }
