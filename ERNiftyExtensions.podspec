@@ -36,6 +36,6 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'Foundation', 'CoreLocation'
 
-  s.dependency 'CryptoSwift'
+  s.dependency 'CryptoSwift', '0.9.0'
 
 end
