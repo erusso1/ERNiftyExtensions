@@ -194,7 +194,7 @@ extension String {
     
     for _ in 0 ..< length {
       let rand = arc4random_uniform(len)
-      var nextChar = String(letters[Int(rand)])
+      let nextChar = String(letters[Int(rand)])
       randomString += nextChar
     }
     
