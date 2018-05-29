@@ -1,6 +1,6 @@
 PODS:
   - CryptoSwift (0.10.0)
-  - ERNiftyExtensions (3.2.5):
+  - ERNiftyExtensions (3.2.6):
     - CryptoSwift
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
-  ERNiftyExtensions: b31096dbb537fce76b4dca355f15f022154afd0b
+  ERNiftyExtensions: b8f45dfa00a8f49445ccd90da71e7db24591d9f6
 
 PODFILE CHECKSUM: 596ab9fa05227ae8f655c61814f610afbbf7d656
 
