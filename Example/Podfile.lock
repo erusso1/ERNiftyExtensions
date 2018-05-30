@@ -1,16 +1,13 @@
 PODS:
-  - CommonCrypto (1.1)
   - CryptoSwift (0.9.0)
-  - ERNiftyExtensions (3.2.2):
-    - CommonCrypto
-    - CryptoSwift
+  - ERNiftyExtensions (3.2.6):
+    - CryptoSwift (= 0.9.0)
 
 DEPENDENCIES:
   - ERNiftyExtensions (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - CommonCrypto
+  https://github.com/cocoapods/specs.git:
     - CryptoSwift
 
 EXTERNAL SOURCES:
@@ -18,10 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CommonCrypto: e18c8416332cca5efe80c197f2a522d471c42626
   CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
-  ERNiftyExtensions: b37fab2d2563a91ce11be217996742ba87becb12
+  ERNiftyExtensions: debca64ad9f5e5052909cbdc0b37ff77ec1508f4
 
-PODFILE CHECKSUM: 5a3e47289b9e8fbade505d6fb03b2239763f4cbd
+PODFILE CHECKSUM: 596ab9fa05227ae8f655c61814f610afbbf7d656
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
