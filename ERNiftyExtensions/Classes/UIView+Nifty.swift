@@ -174,3 +174,28 @@ extension UIView {
     }
 }
 
+extension UIView {
+    
+    /// Visually bounces the receiver with a quick scaling to `targetScale`, then animates back to identity. Use `targetAlpha` to change the alpha concurrently to the scale.
+    public func bounce(targetScale: CGFloat = 0.85, targetAlpha: CGFloat = 1.0, usesHapticFeedback: Bool = false, handler: (()->Void)? = nil) {
+        
+        UIView.animate(withDuration: 0.1, delay: 0, options: [.beginFromCurrentState, .allowUserInteraction], animations: {
+            
+            self.transform = CGAffineTransform(scaleX: targetScale, y: targetScale)
+            self.alpha = targetAlpha
+            
+        }, completion: { _ in
+            
+            if usesHapticFeedback { let generator = UIImpactFeedbackGenerator(style: .light); generator.impactOccurred() }
+            
+            handler?()
+            
+            UIView.animate(withDuration: 0.45, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.4, options: [], animations: {
+                
+                self.transform = .identity
+                self.alpha = 1
+            })
+        })
+    }
+}
+
