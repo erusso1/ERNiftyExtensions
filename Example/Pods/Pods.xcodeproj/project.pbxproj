@@ -554,7 +554,6 @@
 			children = (
 				E73F613E87DF75E6256F845EC0BD7832 /* Pod */,
 				F3F2CC6920CB27A1004C4BF8 /* CoreAnimation */,
-				F3F2CC6A20CB27D7004C4BF8 /* CoreGraphics */,
 				F3F2CC6B20CB27FF004C4BF8 /* CoreLocation */,
 				F38F4EFF20CB26630046EC93 /* Foundation */,
 				F3F2CC6C20CB2887004C4BF8 /* UIKit */,
@@ -579,6 +578,8 @@
 			children = (
 				F38F4F0320CB26710046EC93 /* Array+Nifty.swift */,
 				F38F4F0520CB26710046EC93 /* Bundle+Nifty.swift */,
+				F38F4F1320CB26720046EC93 /* CGAffineTransform+Nifty.swift */,
+				F38F4F1820CB26720046EC93 /* CGSize+Nifty.swift */,
 				F38F4F0D20CB26720046EC93 /* Data+Nifty.swift */,
 				F38F4F0720CB26710046EC93 /* Date+Nifty.swift */,
 				F38F4F0620CB26710046EC93 /* Double+Nifty.swift */,
@@ -590,6 +591,8 @@
 				F38F4F0A20CB26710046EC93 /* NSObject+Nifty.swift */,
 				F38F4F0920CB26710046EC93 /* RawRepresentable+Nifty.swift */,
 				F38F4F0120CB26710046EC93 /* String+Nifty.swift */,
+				F38F4F1620CB26720046EC93 /* UIColor+Nifty.swift */,
+				F38F4F1920CB26720046EC93 /* UIImage+Nifty.swift */,
 			);
 			name = Foundation;
 			path = ERNiftyExtensions/Classes/Foundation;
@@ -603,16 +606,6 @@
 			);
 			name = CoreAnimation;
 			path = ERNiftyExtensions/Classes/CoreAnimation;
-			sourceTree = "<group>";
-		};
-		F3F2CC6A20CB27D7004C4BF8 /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				F38F4F1320CB26720046EC93 /* CGAffineTransform+Nifty.swift */,
-				F38F4F1820CB26720046EC93 /* CGSize+Nifty.swift */,
-			);
-			name = CoreGraphics;
-			path = ERNiftyExtensions/Classes/CoreGraphics;
 			sourceTree = "<group>";
 		};
 		F3F2CC6B20CB27FF004C4BF8 /* CoreLocation */ = {
@@ -629,8 +622,6 @@
 			children = (
 				F38F4F0420CB26710046EC93 /* UICollectionReusableView+Nifty.swift */,
 				F38F4F1220CB26720046EC93 /* UICollectionView+Nifty.swift */,
-				F38F4F1620CB26720046EC93 /* UIColor+Nifty.swift */,
-				F38F4F1920CB26720046EC93 /* UIImage+Nifty.swift */,
 				F38F4F0B20CB26710046EC93 /* UILabel+Nifty.swift */,
 				F38F4F0220CB26710046EC93 /* UIPageViewController+Nifty.swift */,
 				F38F4F1120CB26720046EC93 /* UIScrollView+Nifty.swift */,

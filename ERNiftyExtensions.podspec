@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ERNiftyExtensions'
-  s.version          = '3.2.9'
+  s.version          = '3.3.0'
   s.summary          = 'A library of helpful extensions for UIKit & Foundation that one iOS developer has picked up over the years.'
 
 # This description is used to generate tags and improve search results.
@@ -56,13 +56,6 @@ Pod::Spec.new do |s|
       ca.source_files = 'ERNiftyExtensions/Classes/CoreAnimation/*.{swift}'
   end
   
-  s.subspec 'CoreGraphics' do |cg|
-      
-      cg.ios.deployment_target = '10.0'
-      cg.source_files = 'ERNiftyExtensions/Classes/CoreGraphics/*.{swift}'
-      cg.frameworks = 'CoreGraphics'
-  end
-  
   s.subspec 'CoreLocation' do |cl|
       
       cl.ios.deployment_target = '10.0'
@@ -76,7 +69,6 @@ Pod::Spec.new do |s|
       ui.source_files = 'ERNiftyExtensions/Classes/UIKit/*.{swift}'
       ui.dependency 'ERNiftyExtensions/Foundation'
       ui.dependency 'ERNiftyExtensions/CoreAnimation'
-      ui.dependency 'ERNiftyExtensions/CoreGraphics'
       ui.frameworks = 'UIKit'
   end
 
