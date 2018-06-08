@@ -6,6 +6,8 @@
 //
 //
 
+import Foundation
+
 extension Bundle {
     
     public func object<T>(forInfoPlistKey key: String) -> T? { return self.object(forInfoDictionaryKey: key) as? T }

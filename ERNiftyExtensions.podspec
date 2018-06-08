@@ -25,18 +25,59 @@ Pod::Spec.new do |s|
   s.author           = { 'erusso1' => 'ephraim.s.russo@gmail.com' }
   s.source           = { :git => 'https://github.com/erusso1/ERNiftyExtensions.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-  s.watchos.deployment_target = '4.0'
-  
-  s.source_files = 'ERNiftyExtensions/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ERNiftyExtensions' => ['ERNiftyExtensions/Assets/*.png']
   # }
 
-  s.frameworks = 'UIKit', 'Foundation', 'CoreLocation'
+  s.ios.deployment_target = '10.0'
 
-  s.dependency 'CryptoSwift'
+  s.default_subspec = 'Foundation'
+  
+  s.subspec 'Foundation' do |foundation|
+      
+      # Subspect for users that only with to have Foundation and Swift standard library extensions.
+      
+      foundation.ios.deployment_target = '10.0'
+      
+      foundation.watchos.deployment_target = '4.0'
+      
+      foundation.source_files = 'ERNiftyExtensions/Classes/Foundation/*.{swift}'
+      
+      foundation.dependency 'CryptoSwift'
+      
+      foundation.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
+
+  end
+  
+  s.subspec 'CoreAnimation' do |ca|
+      
+      ca.ios.deployment_target = '10.0'
+      ca.source_files = 'ERNiftyExtensions/Classes/CoreAnimation/*.{swift}'
+  end
+  
+  s.subspec 'CoreGraphics' do |cg|
+      
+      cg.ios.deployment_target = '10.0'
+      cg.source_files = 'ERNiftyExtensions/Classes/CoreGraphics/*.{swift}'
+      cg.frameworks = 'CoreGraphics'
+  end
+  
+  s.subspec 'CoreLocation' do |cl|
+      
+      cl.ios.deployment_target = '10.0'
+      cl.source_files = 'ERNiftyExtensions/Classes/CoreLocation/*.{swift}'
+      cl.frameworks = 'CoreLocation'
+  end
+  
+  s.subspec 'UIKit' do |ui|
+      
+      ui.ios.deployment_target = '10.0'
+      ui.source_files = 'ERNiftyExtensions/Classes/UIKit/*.{swift}'
+      ui.dependency 'ERNiftyExtensions/Foundation'
+      ui.dependency 'ERNiftyExtensions/CoreAnimation'
+      ui.dependency 'ERNiftyExtensions/CoreGraphics'
+      ui.frameworks = 'UIKit'
+  end
 
 end

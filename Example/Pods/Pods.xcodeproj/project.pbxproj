@@ -11,38 +11,25 @@
 		039350756C0B5AB0A6797BBC711E1C93 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9467CCD0D037E107955CA5471D3064 /* PKCS5.swift */; };
 		05CF10E61C4E03F6DCF66D848D75A118 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1EFB8D60D0AD44A3A5F89DC43E2BD3 /* UInt32+Extension.swift */; };
 		08ABA6C04B1CBD6C5EF9CD717392BED7 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B84205AF170399F2D70A2221959F0 /* BlockCipher.swift */; };
-		09020EDF3829403DC7013BA62BAB2C11 /* IndexPath+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B434BC04E208C1221D2342013B8759 /* IndexPath+Nifty.swift */; };
 		095DA73B27E9E6A08FA639C2321B0F09 /* RandomBytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369FAB909398775EF75BAEC1AD47464 /* RandomBytesSequence.swift */; };
 		0B2E63B43975AE9199291D0C7BAC0078 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E2D7CE52E01CABA073B0D2105C752 /* MD5.swift */; };
 		0F2241E7B7A95E5C6D5CB9F67901A82A /* ERNiftyExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C960DADA054FE58CBF402A00C24803CB /* ERNiftyExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10AE4F7D9FE597E526207C2BD7E5BE8C /* AEADChaCha20Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE9D3D7C577F2C2BFCFE1A890AF0FE1 /* AEADChaCha20Poly1305.swift */; };
-		113C44322802AE3BC30AC9AFE9673AA9 /* CGAffineTransform+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C591C27677EC63A60B2506D508FFC /* CGAffineTransform+Nifty.swift */; };
-		11A7E1BC8C9F2CDC38DE3BA494937BFE /* Int+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512280CB4810A26E1AFDE68EE1D59360 /* Int+Nifty.swift */; };
-		12301276C43513392818B1D512C82DC0 /* UIColor+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEF121387FD5A0A2DB694F9F2D0300 /* UIColor+Nifty.swift */; };
 		160C9907BBB0C27609270EC9CD40F686 /* AEAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C6BA7F7E1297930B2BE3DB8C70986 /* AEAD.swift */; };
 		17B44E8D73D2C0FB1FC5C995805D76C6 /* Pods-ERNiftyExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F74121F4CB59104306F65BDE75AAD95 /* Pods-ERNiftyExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19DCF3604FE2EC5B50E1D905FD7A20F5 /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C50F5D134804589B2A892A156AA1C1 /* NoPadding.swift */; };
 		1B2540500BCF09064F45D72C36AB3CE8 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E895A642D962C0E69F50390CC262C5F /* String+FoundationExtension.swift */; };
-		1E063B3B5257C27931E2EF1C0188158E /* Data+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B62167359F6A43A450BC1284B39B0 /* Data+Nifty.swift */; };
 		1E17E5AB86F22D8D0109DBF7FF7BACD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2BF9BAD42880ED97A7D3B6B0DD6C9 /* Foundation.framework */; };
 		1E9B6317CB5C737EA210A5B47C118B8F /* Pods-ERNiftyExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FD09F294B58DC95A8CB0A991FF6E90 /* Pods-ERNiftyExtensions_Example-dummy.m */; };
-		207694D329FE9829A97A37BFB68A5E26 /* Array+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6473CE09426E36B37DE17CE7D534E581 /* Array+Nifty.swift */; };
 		2162CF3F023ED7D1550784AFE41E9FC1 /* PKCS7Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369BC32163055667CF3FC3F6B3881EC /* PKCS7Padding.swift */; };
 		267468844C11A86887D8359BFA51EDCA /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC5D8470C4976B94387EE8FA417BF6 /* UInt8+Extension.swift */; };
 		2A9868B8D3064C5CFE9CA4CF1F5C6277 /* GCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09621529EA7B7D8284DA6864D58E7BF8 /* GCM.swift */; };
 		2C4CBBDEC2EFB09616F091D8085054B1 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3AB2C85BD1E7FA8A06DEC59C25460 /* Array+Extension.swift */; };
-		32DA3E2E21A92D19A767E6214D7162D5 /* CGSize+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0489B261233044E6366E844C65E7 /* CGSize+Nifty.swift */; };
-		330CE7BE7B97E90B7780EC5D8B6248BD /* UIPageViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62960F396E7313152F44C117766C0E35 /* UIPageViewController+Nifty.swift */; };
 		332AE3CF5C6F62A0CB28D69FAD83D4F2 /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEE2A255F98084DAB05AC89AE3CAF5 /* CompactMap.swift */; };
-		363FEA5C7E11BFDF3CF29AAA5EC7B067 /* RawRepresentable+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B51413B333B9275E470D23F27B6E09 /* RawRepresentable+Nifty.swift */; };
 		3727FF822DCA43A76E8D6BAF6D129FC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2BF9BAD42880ED97A7D3B6B0DD6C9 /* Foundation.framework */; };
 		38D10F3494FD3AAD10B3701FDD6361E6 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA74B0F27DC91A748BE834A134AA450 /* BlockMode.swift */; };
-		39FB906258D905340C6BC73F3FF8A6C8 /* NSObject+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA74418855C025A5CA04530DF440205 /* NSObject+Nifty.swift */; };
-		4029E403487222AEBB3DCEC8A3A6C01F /* Bundle+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F8203D72D615031061B616699B0B3C /* Bundle+Nifty.swift */; };
 		4A385541DA9BC1D610B1F5DAACEA3018 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA1B9A1F5F470133BB8548E011ACB4 /* Bit.swift */; };
-		4D884B5F76C612B85EFEBF3F6E8B009A /* NSMutableAttributedString+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81109DCE89DE8849AAEA821F5DBDA34C /* NSMutableAttributedString+Nifty.swift */; };
 		4F2446A5BEE426E5C26E8B10042FA7D5 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6585AFA2B133A32E139E134AAD229 /* Digest.swift */; };
-		56503CB88FFF1898D2B622831AB48C02 /* UIStoryboard+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F690E057B4D22AFD85EDEAFD3844E4C5 /* UIStoryboard+Nifty.swift */; };
 		57FE39A82E5AEFEDBA85E5F2E5D9770C /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8EEDFAE07DF4FFB8565E8CBA195617 /* BatchedCollection.swift */; };
 		57FE4F33F47550DB161A24059C5A3B31 /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EBF83F23304739C32AC8BDC2D2108B /* OFB.swift */; };
 		5A56CFAB7B44BED401B583C0A0BF2DE8 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5F550967A13957E5DCA5AB77C5BA68 /* UInt16+Extension.swift */; };
@@ -51,7 +38,6 @@
 		5EAD67353655521C63B2ACD0417D0241 /* UInt128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FB5E0ED35B42E12B8EB3CD3350308 /* UInt128.swift */; };
 		5FB84328CEA3E9EA4BBF019858FBF4B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2BF9BAD42880ED97A7D3B6B0DD6C9 /* Foundation.framework */; };
 		6381735B1C9B9176FC09F814635D4A55 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61499A21446DE5ED966AC4BBEA88A8 /* SHA1.swift */; };
-		649D68C6AFF7CF3E24CB1394B57F489A /* UIScrollView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656584E4E53DB2458E076F55C324CBAA /* UIScrollView+Nifty.swift */; };
 		6AA6275415063983467780CC83E65936 /* RandomAccessBlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFC0D96343A55DEF69CDDD88DDB253 /* RandomAccessBlockModeWorker.swift */; };
 		6BF728EB5F6BE48604FDD501667A5A50 /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F12DF5A2F48245A2AFEEB871B5EE7F7 /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C448016840F328F41FC27BBC25C4A8F /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = D214A0D0E400E681241750B2CD921AF6 /* Blowfish.swift */; };
@@ -62,7 +48,6 @@
 		76284A5C239127BBB182909F9C1A58BA /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64546BFB75F5E9535C555DEB85D9A5 /* CTR.swift */; };
 		7874CFF33C57FD51D9E3E147A66444AB /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC9872739B7F94954F2A34BB517AE6 /* ECB.swift */; };
 		7A473D711B9230011CC222825211928D /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA64F67AEAC152D1FB07689DAAEF824E /* CryptoSwift.framework */; };
-		7D7CD54A9C7A3326CA3CEBC277893CC5 /* UIView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F20D266B4BB60EFAA8B7A0920BF781 /* UIView+Nifty.swift */; };
 		820D3860D321566F061DFF85D4495527 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6128D1D46DBBFAE50D58F6AAA09F4FD1 /* Generics.swift */; };
 		839EB0356FB8EF08F7956E6F1CB99A4D /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644443018F0AD3B8CD47A2DD8D2CB5CB /* CFB.swift */; };
 		88F7B6539CFD68664EB7FF9408C25583 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD17C1D3085CA3DB444668CEC32ABB4 /* PBKDF2.swift */; };
@@ -70,32 +55,22 @@
 		8B0BE5AABA63B483FCE91217DC88082D /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC1608B992CE9A0846BAE6AD28BCA2C /* SHA2.swift */; };
 		8D3F87BC85255A410E5A15DD69CEC131 /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F261DFBE96E54F38A3A3BA14864C6444 /* AES+Foundation.swift */; };
 		8DB523411AF2FC8A93F87013F87DFC8A /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC2DFD4E5DCD1DA54CA63B16669528 /* Authenticator.swift */; };
-		8F30B04371A5E9C5ED9531213FCA5504 /* CAGradientLayer+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075747C6629DCCC5FAE3BF77E8084444 /* CAGradientLayer+Nifty.swift */; };
-		95C420BDB11F23DE78F7C7921E28719B /* UITextField+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8344CA4801D71F607EEB9BD93546F524 /* UITextField+Nifty.swift */; };
 		966F2FAAA4EE5403E3C03BA5DB54B7F2 /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14138F2CBE1D80BD9AFEC577D2D45205 /* BlockModeWorker.swift */; };
 		9A74986ADFC67217408C51F2825FA233 /* CMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CB77AA98BEC4A4D962EED1DBE5E1A /* CMAC.swift */; };
-		9AC738C2208E850F234114847BAF2851 /* UIImage+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7372BCF5611DAB56BA0C83AF2FA9BEC7 /* UIImage+Nifty.swift */; };
 		9B141D643B3A7A1D001A4D55D221AFCE /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D1EE8317A83A9B39D330CCDA110F6A /* BlockModeOptions.swift */; };
 		9E472C70CF31B37E1F30AD5A18BF6898 /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC21EEEF8E3EEE41BC0DFBD5FF3CA2 /* Poly1305.swift */; };
 		A649B02DB2D1FB834711F5F17130F9CE /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E84C62CA9BD2E3880EDAE5E87C0D7 /* DigestType.swift */; };
 		A75FEBA63A30E58549CF6DBC5DC37F91 /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B8B901CBA9FDA5A6D64C1CEB03D2E7 /* Utils+Foundation.swift */; };
 		A7D2A568E5206D173B7E0873B4F5ABE3 /* Pods-ERNiftyExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB165A7024F939BE38D7A92871D60C1 /* Pods-ERNiftyExtensions_Tests-dummy.m */; };
-		AAB23F3313AB3FFB7F15D4D3F480E00A /* String+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927A2DD1DD1DFC8C2D7E1BAD31C4636 /* String+Nifty.swift */; };
 		ABA820A6E89F8F9257E498FA77C12427 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7F2FB1AEC237C932418EFA88224F9 /* Int+Extension.swift */; };
 		ABF4C1622EC2FFCB5DD8D9407FE8B957 /* AES.Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E9144D230AC91F96563EEF9EB907BD /* AES.Cryptors.swift */; };
-		AC486A1A515997BEE022BE4E69AEDBE3 /* Notification.Name+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BB2CF615DF3AB35F4F1898912C721 /* Notification.Name+Nifty.swift */; };
 		AE7C5F1E7B8671BD2924830426CA190D /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE76502F8C797788CBF17E4C20F1C32 /* SecureBytes.swift */; };
-		B4F9A1B579E139D3B5D0B3C5ABBAC988 /* UILabel+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66168F895FFD79A246A52E2711267D /* UILabel+Nifty.swift */; };
 		B54E54DA6229D3FEEC3B07E00D07C437 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE231B29A74A7B523F2EEBFD2A11F515 /* CBC.swift */; };
-		B6C5C2EC072E29F7097303BED62734A4 /* UICollectionReusableView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7613E7D376D29146A34E84D3783A84 /* UICollectionReusableView+Nifty.swift */; };
 		B753F9CF6770985EB0CDA6EF62D5D22F /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BFF904AE8181ED2D14F5B82401045 /* Data+Extension.swift */; };
 		B9905EDB003EFF5168BC6313AA0B061B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04B489A870BEBA4F5FAF147C1FBFE1 /* Operators.swift */; };
-		BA655964C6AB2221E6ECCAAE4908E6D0 /* Error+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC28611E582F16AAE7F7C5C292D0988 /* Error+Nifty.swift */; };
 		BB608DD02AA5A40C07F3EA08CF9E30B4 /* RandomAccessCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3803B8849C79E6C7ADCCD4599E427 /* RandomAccessCryptor.swift */; };
 		BCB963EB00BDF032EB6B4DA695305989 /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05AC5C9060EC456A184DA489D1697F /* PBKDF1.swift */; };
-		BD20179B9C7E2376EFCB17771C79F95F /* Date+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25806725360A26CDAE11FD6C7A99C33 /* Date+Nifty.swift */; };
 		C051EAEBD84A5544487743E3F2C8464F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF81174BE9203D72CBD66D642936395 /* Utils.swift */; };
-		C103D7AF8D3D87365E886B48EEF6FE2F /* UICollectionView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5F1A618DF98AE9B4709E81B635048 /* UICollectionView+Nifty.swift */; };
 		CD28015F8A48E2F721FE9E19AD251857 /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D3C1B32395DF18ECC1A965404A384C /* ZeroPadding.swift */; };
 		CF6AA76488F752DEA73EE38FAA04C7AD /* Blowfish+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797A95BDA7BF8F91D02BDF5B35B270D /* Blowfish+Foundation.swift */; };
 		D1848E7FEA44740F148B99AB6C305468 /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E832F8758E2062F70A00F4F44CE5B599 /* HMAC+Foundation.swift */; };
@@ -103,18 +78,43 @@
 		D479AAF93F314F67BE64F53CFB51548B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2BF9BAD42880ED97A7D3B6B0DD6C9 /* Foundation.framework */; };
 		D627B3A114B271806A170BAEEFFFF105 /* Array+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3BD40026FFAB24C0A16C1A73BE389 /* Array+Foundation.swift */; };
 		D959AA91129F292B9D012023D8B9CE13 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F64ADD5044AC18FD9A874D536408B5C0 /* CryptoSwift-dummy.m */; };
-		DB54EA5E0C4FDDAEF8359F4A0A0092E3 /* Double+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F153A986F8992B59E8AE239F5D881 /* Double+Nifty.swift */; };
 		DCBC703BA0A7E5042236292D77C4A1E9 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9A019DF0C58071F17FC2A4895DEC4 /* ChaCha20.swift */; };
 		DD4E4A41A383630F4B8525F28E085BCA /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A658332A6D82C2FDAA16F485A53199B /* PCBC.swift */; };
 		E13587212A868BD3DA079EC952E0078C /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC77FB421C255C9B93A82C8232ED27 /* Rabbit.swift */; };
 		E25C4E5CE24215E24B00478455750ED5 /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630D4711461D2D87BD2DC08653C4FCA /* ChaCha20+Foundation.swift */; };
-		E44401F905E2982CD17AAFBDA6615930 /* UIViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F349870ACA1824EFBC23D2F319631C4 /* UIViewController+Nifty.swift */; };
 		E7A65C12B2569368685C5BC2728C498C /* Pods-ERNiftyExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 047D1C03946D8AFF60A842E391174B2C /* Pods-ERNiftyExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDA0D8EFFE165DC4A8F6FE0F66D8A99A /* UITableView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AAC1DD3875DC41F0DC07C39543832 /* UITableView+Nifty.swift */; };
 		F099EB4132F0A3DAB9118220AF9DB4C3 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07072F5FA4FD26D49005872073D63943 /* Cipher.swift */; };
-		F1731788B8B807D9D4D1B13EAE144C55 /* CLLocation+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C135C3D5C22A309777E9ADDE58883E /* CLLocation+Nifty.swift */; };
-		F3B2BD6342AEBF7E8733F57414376D06 /* CALayer+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7125BE7209C33E5911FE2C946E330 /* CALayer+Nifty.swift */; };
-		F5F9E04F1E2EFA6532A92FB7DC484EB1 /* UITableViewCell+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F41775C2C1938FBE26775C6B26CEA /* UITableViewCell+Nifty.swift */; };
+		F38F4F1F20CB26730046EC93 /* CAGradientLayer+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0020CB26710046EC93 /* CAGradientLayer+Nifty.swift */; };
+		F38F4F2020CB26730046EC93 /* String+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0120CB26710046EC93 /* String+Nifty.swift */; };
+		F38F4F2120CB26730046EC93 /* UIPageViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0220CB26710046EC93 /* UIPageViewController+Nifty.swift */; };
+		F38F4F2220CB26730046EC93 /* Array+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0320CB26710046EC93 /* Array+Nifty.swift */; };
+		F38F4F2320CB26730046EC93 /* UICollectionReusableView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0420CB26710046EC93 /* UICollectionReusableView+Nifty.swift */; };
+		F38F4F2420CB26730046EC93 /* Bundle+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0520CB26710046EC93 /* Bundle+Nifty.swift */; };
+		F38F4F2520CB26730046EC93 /* Double+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0620CB26710046EC93 /* Double+Nifty.swift */; };
+		F38F4F2620CB26730046EC93 /* Date+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0720CB26710046EC93 /* Date+Nifty.swift */; };
+		F38F4F2720CB26730046EC93 /* CALayer+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0820CB26710046EC93 /* CALayer+Nifty.swift */; };
+		F38F4F2820CB26730046EC93 /* RawRepresentable+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0920CB26710046EC93 /* RawRepresentable+Nifty.swift */; };
+		F38F4F2920CB26730046EC93 /* NSObject+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0A20CB26710046EC93 /* NSObject+Nifty.swift */; };
+		F38F4F2A20CB26730046EC93 /* UILabel+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0B20CB26710046EC93 /* UILabel+Nifty.swift */; };
+		F38F4F2B20CB26730046EC93 /* UITableViewCell+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0C20CB26720046EC93 /* UITableViewCell+Nifty.swift */; };
+		F38F4F2C20CB26730046EC93 /* Data+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0D20CB26720046EC93 /* Data+Nifty.swift */; };
+		F38F4F2D20CB26730046EC93 /* Notification.Name+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0E20CB26720046EC93 /* Notification.Name+Nifty.swift */; };
+		F38F4F2E20CB26730046EC93 /* UIStoryboard+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F0F20CB26720046EC93 /* UIStoryboard+Nifty.swift */; };
+		F38F4F2F20CB26730046EC93 /* UITableView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1020CB26720046EC93 /* UITableView+Nifty.swift */; };
+		F38F4F3020CB26730046EC93 /* UIScrollView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1120CB26720046EC93 /* UIScrollView+Nifty.swift */; };
+		F38F4F3120CB26730046EC93 /* UICollectionView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1220CB26720046EC93 /* UICollectionView+Nifty.swift */; };
+		F38F4F3220CB26730046EC93 /* CGAffineTransform+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1320CB26720046EC93 /* CGAffineTransform+Nifty.swift */; };
+		F38F4F3320CB26730046EC93 /* UIView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1420CB26720046EC93 /* UIView+Nifty.swift */; };
+		F38F4F3420CB26730046EC93 /* CLLocation+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1520CB26720046EC93 /* CLLocation+Nifty.swift */; };
+		F38F4F3520CB26730046EC93 /* UIColor+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1620CB26720046EC93 /* UIColor+Nifty.swift */; };
+		F38F4F3620CB26730046EC93 /* Error+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1720CB26720046EC93 /* Error+Nifty.swift */; };
+		F38F4F3720CB26730046EC93 /* CGSize+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1820CB26720046EC93 /* CGSize+Nifty.swift */; };
+		F38F4F3820CB26730046EC93 /* UIImage+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1920CB26720046EC93 /* UIImage+Nifty.swift */; };
+		F38F4F3920CB26730046EC93 /* UIViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1A20CB26720046EC93 /* UIViewController+Nifty.swift */; };
+		F38F4F3A20CB26730046EC93 /* NSMutableAttributedString+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1B20CB26730046EC93 /* NSMutableAttributedString+Nifty.swift */; };
+		F38F4F3B20CB26730046EC93 /* Int+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1C20CB26730046EC93 /* Int+Nifty.swift */; };
+		F38F4F3C20CB26730046EC93 /* UITextField+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1D20CB26730046EC93 /* UITextField+Nifty.swift */; };
+		F38F4F3D20CB26730046EC93 /* IndexPath+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F4F1E20CB26730046EC93 /* IndexPath+Nifty.swift */; };
 		F6E9FFECFE1345F76658D34C101BA8C7 /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35490F9FAFEFAF2F8C6B3681E0D29E /* HKDF.swift */; };
 		F79483ADBF17C0EC9D0B7A710F1A1F03 /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5317D88E847778666BFC9653AA1416 /* Rabbit+Foundation.swift */; };
 		F987DCA80FEE515C731E9483DE12A5E5 /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CD25CF2FF69C7C2EB1469ABF8C5004 /* SHA3.swift */; };
@@ -156,105 +156,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E7125BE7209C33E5911FE2C946E330 /* CALayer+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Nifty.swift"; path = "ERNiftyExtensions/Classes/CALayer+Nifty.swift"; sourceTree = "<group>"; };
 		024AA3A1B2482369D2E7B92CBF265217 /* Pods-ERNiftyExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERNiftyExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		047D1C03946D8AFF60A842E391174B2C /* Pods-ERNiftyExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ERNiftyExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
-		065BB2CF615DF3AB35F4F1898912C721 /* Notification.Name+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notification.Name+Nifty.swift"; path = "ERNiftyExtensions/Classes/Notification.Name+Nifty.swift"; sourceTree = "<group>"; };
 		06C50F5D134804589B2A892A156AA1C1 /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
 		07072F5FA4FD26D49005872073D63943 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
-		075747C6629DCCC5FAE3BF77E8084444 /* CAGradientLayer+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAGradientLayer+Nifty.swift"; path = "ERNiftyExtensions/Classes/CAGradientLayer+Nifty.swift"; sourceTree = "<group>"; };
 		079A08408083ECEAD89062BE18FEF50A /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
 		09621529EA7B7D8284DA6864D58E7BF8 /* GCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCM.swift; path = Sources/CryptoSwift/BlockMode/GCM.swift; sourceTree = "<group>"; };
 		0A04B489A870BEBA4F5FAF147C1FBFE1 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
 		0BBE9DE8D1323B9D6528B92FE422B231 /* ERNiftyExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ERNiftyExtensions-dummy.m"; sourceTree = "<group>"; };
 		0EA74B0F27DC91A748BE834A134AA450 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
 		10D3C1B32395DF18ECC1A965404A384C /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
-		13C135C3D5C22A309777E9ADDE58883E /* CLLocation+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Nifty.swift"; path = "ERNiftyExtensions/Classes/CLLocation+Nifty.swift"; sourceTree = "<group>"; };
 		14138F2CBE1D80BD9AFEC577D2D45205 /* BlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/BlockModeWorker.swift; sourceTree = "<group>"; };
 		15D30CA639EAB811B44DBA30C211CAA5 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
-		1AD5F1A618DF98AE9B4709E81B635048 /* UICollectionView+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Nifty.swift"; path = "ERNiftyExtensions/Classes/UICollectionView+Nifty.swift"; sourceTree = "<group>"; };
-		1C66168F895FFD79A246A52E2711267D /* UILabel+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Nifty.swift"; path = "ERNiftyExtensions/Classes/UILabel+Nifty.swift"; sourceTree = "<group>"; };
 		1F12DF5A2F48245A2AFEEB871B5EE7F7 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
 		1F74121F4CB59104306F65BDE75AAD95 /* Pods-ERNiftyExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ERNiftyExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2749E677080AF652A104E1AA36770524 /* Pods-ERNiftyExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERNiftyExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29E3803B8849C79E6C7ADCCD4599E427 /* RandomAccessCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomAccessCryptor.swift; path = Sources/CryptoSwift/RandomAccessCryptor.swift; sourceTree = "<group>"; };
 		2DCF71D4A52239DA2F3AD1804E6196AF /* Pods-ERNiftyExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERNiftyExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		311AAC1DD3875DC41F0DC07C39543832 /* UITableView+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Nifty.swift"; path = "ERNiftyExtensions/Classes/UITableView+Nifty.swift"; sourceTree = "<group>"; };
 		33D277C1BEF65BECBBA73F403409F54B /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
 		384CEDAD5AA99DA1BEA1880510B4D38A /* Pods-ERNiftyExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ERNiftyExtensions_Example.modulemap"; sourceTree = "<group>"; };
 		3969200C92967EF8BE2F2180A1428E77 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS/PKCS7.swift; sourceTree = "<group>"; };
-		3C877A2DAF1D93E1FCB952EAAB568C82 /* Pods_ERNiftyExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ERNiftyExtensions_Example.framework; path = "Pods-ERNiftyExtensions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C877A2DAF1D93E1FCB952EAAB568C82 /* Pods_ERNiftyExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERNiftyExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF81174BE9203D72CBD66D642936395 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
 		3F8BFF904AE8181ED2D14F5B82401045 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
-		40B055549023021BCC03A0B9A0011E62 /* ERNiftyExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ERNiftyExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40B055549023021BCC03A0B9A0011E62 /* ERNiftyExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ERNiftyExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		416BBFCA9A380B51644EB6C865AA2EE6 /* ERNiftyExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ERNiftyExtensions.modulemap; sourceTree = "<group>"; };
 		424D97059AFDDBEBF18B8110BD77D224 /* Pods-ERNiftyExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERNiftyExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		47CD25CF2FF69C7C2EB1469ABF8C5004 /* SHA3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA3.swift; path = Sources/CryptoSwift/SHA3.swift; sourceTree = "<group>"; };
 		497C6BA7F7E1297930B2BE3DB8C70986 /* AEAD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEAD.swift; path = Sources/CryptoSwift/AEAD/AEAD.swift; sourceTree = "<group>"; };
 		4A658332A6D82C2FDAA16F485A53199B /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
 		4A9467CCD0D037E107955CA5471D3064 /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS/PKCS5.swift; sourceTree = "<group>"; };
-		4AAAA88E9142978283EE0A1E10D425B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4AAAA88E9142978283EE0A1E10D425B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CC1608B992CE9A0846BAE6AD28BCA2C /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
 		4D20DE8C026685AB649066D9A361CDC8 /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
 		4E9DE284E3C713EB444926CFBDB4FED6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE5B43804F5514B7BD936F8DD22385C /* ERNiftyExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ERNiftyExtensions-prefix.pch"; sourceTree = "<group>"; };
 		503BD70DCC2234B0828152E41FE8CFE2 /* Pods-ERNiftyExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERNiftyExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		50E3BD40026FFAB24C0A16C1A73BE389 /* Array+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Array+Foundation.swift"; sourceTree = "<group>"; };
-		512280CB4810A26E1AFDE68EE1D59360 /* Int+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Nifty.swift"; path = "ERNiftyExtensions/Classes/Int+Nifty.swift"; sourceTree = "<group>"; };
 		51E9144D230AC91F96563EEF9EB907BD /* AES.Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.Cryptors.swift; path = Sources/CryptoSwift/AES.Cryptors.swift; sourceTree = "<group>"; };
 		588FB5E0ED35B42E12B8EB3CD3350308 /* UInt128.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt128.swift; path = Sources/CryptoSwift/UInt128.swift; sourceTree = "<group>"; };
-		5AA74418855C025A5CA04530DF440205 /* NSObject+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Nifty.swift"; path = "ERNiftyExtensions/Classes/NSObject+Nifty.swift"; sourceTree = "<group>"; };
 		5B530624E0F88BB74AEFB44CEB0C0B99 /* UInt64+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Sources/CryptoSwift/UInt64+Extension.swift"; sourceTree = "<group>"; };
 		5C8EEDFAE07DF4FFB8565E8CBA195617 /* BatchedCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchedCollection.swift; path = Sources/CryptoSwift/BatchedCollection.swift; sourceTree = "<group>"; };
 		5CC4A86FB0DF611B2F9E35B50B81A518 /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
 		5D05AC5C9060EC456A184DA489D1697F /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS/PBKDF1.swift; sourceTree = "<group>"; };
 		604B84205AF170399F2D70A2221959F0 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
 		6128D1D46DBBFAE50D58F6AAA09F4FD1 /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
-		62960F396E7313152F44C117766C0E35 /* UIPageViewController+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageViewController+Nifty.swift"; path = "ERNiftyExtensions/Classes/UIPageViewController+Nifty.swift"; sourceTree = "<group>"; };
 		6369FAB909398775EF75BAEC1AD47464 /* RandomBytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomBytesSequence.swift; path = Sources/CryptoSwift/RandomBytesSequence.swift; sourceTree = "<group>"; };
 		644443018F0AD3B8CD47A2DD8D2CB5CB /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
-		6473CE09426E36B37DE17CE7D534E581 /* Array+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Nifty.swift"; path = "ERNiftyExtensions/Classes/Array+Nifty.swift"; sourceTree = "<group>"; };
-		656584E4E53DB2458E076F55C324CBAA /* UIScrollView+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Nifty.swift"; path = "ERNiftyExtensions/Classes/UIScrollView+Nifty.swift"; sourceTree = "<group>"; };
 		6630D4711461D2D87BD2DC08653C4FCA /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
 		6974C210EC9585C0925ACBD71E2D6330 /* Pods-ERNiftyExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERNiftyExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E5F550967A13957E5DCA5AB77C5BA68 /* UInt16+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt16+Extension.swift"; path = "Sources/CryptoSwift/UInt16+Extension.swift"; sourceTree = "<group>"; };
 		6EFEE2A255F98084DAB05AC89AE3CAF5 /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
-		7372BCF5611DAB56BA0C83AF2FA9BEC7 /* UIImage+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Nifty.swift"; path = "ERNiftyExtensions/Classes/UIImage+Nifty.swift"; sourceTree = "<group>"; };
-		73AD0489B261233044E6366E844C65E7 /* CGSize+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Nifty.swift"; path = "ERNiftyExtensions/Classes/CGSize+Nifty.swift"; sourceTree = "<group>"; };
-		74F20D266B4BB60EFAA8B7A0920BF781 /* UIView+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Nifty.swift"; path = "ERNiftyExtensions/Classes/UIView+Nifty.swift"; sourceTree = "<group>"; };
 		77F9A019DF0C58071F17FC2A4895DEC4 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
 		7A09212E8F31166E73E0FBCAF5228300 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
 		7E895A642D962C0E69F50390CC262C5F /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
 		7EA876BBEF97A76DF5DB0778B7ABF569 /* Pods-ERNiftyExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ERNiftyExtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		7ECA1B9A1F5F470133BB8548E011ACB4 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
-		7F349870ACA1824EFBC23D2F319631C4 /* UIViewController+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Nifty.swift"; path = "ERNiftyExtensions/Classes/UIViewController+Nifty.swift"; sourceTree = "<group>"; };
-		81109DCE89DE8849AAEA821F5DBDA34C /* NSMutableAttributedString+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Nifty.swift"; path = "ERNiftyExtensions/Classes/NSMutableAttributedString+Nifty.swift"; sourceTree = "<group>"; };
-		81F8203D72D615031061B616699B0B3C /* Bundle+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Nifty.swift"; path = "ERNiftyExtensions/Classes/Bundle+Nifty.swift"; sourceTree = "<group>"; };
 		826E84C62CA9BD2E3880EDAE5E87C0D7 /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
-		8344CA4801D71F607EEB9BD93546F524 /* UITextField+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Nifty.swift"; path = "ERNiftyExtensions/Classes/UITextField+Nifty.swift"; sourceTree = "<group>"; };
 		83BC5D8470C4976B94387EE8FA417BF6 /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
 		8797A95BDA7BF8F91D02BDF5B35B270D /* Blowfish+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Blowfish+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift"; sourceTree = "<group>"; };
 		88A93DB3104535B55D0F0C153A32FA02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A61499A21446DE5ED966AC4BBEA88A8 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
-		8C4F41775C2C1938FBE26775C6B26CEA /* UITableViewCell+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Nifty.swift"; path = "ERNiftyExtensions/Classes/UITableViewCell+Nifty.swift"; sourceTree = "<group>"; };
-		8D368572719883D84539DD29D7679E54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8FC28611E582F16AAE7F7C5C292D0988 /* Error+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Error+Nifty.swift"; path = "ERNiftyExtensions/Classes/Error+Nifty.swift"; sourceTree = "<group>"; };
-		90DEF121387FD5A0A2DB694F9F2D0300 /* UIColor+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Nifty.swift"; path = "ERNiftyExtensions/Classes/UIColor+Nifty.swift"; sourceTree = "<group>"; };
+		8D368572719883D84539DD29D7679E54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		91EC21EEEF8E3EEE41BC0DFBD5FF3CA2 /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
 		92D8A5FBF3A1111E70545EF71C28B763 /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95AC9872739B7F94954F2A34BB517AE6 /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
 		99B8B901CBA9FDA5A6D64C1CEB03D2E7 /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
-		9D4C591C27677EC63A60B2506D508FFC /* CGAffineTransform+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGAffineTransform+Nifty.swift"; path = "ERNiftyExtensions/Classes/CGAffineTransform+Nifty.swift"; sourceTree = "<group>"; };
 		A05A3660F94C22F089CC3DFC3CCD14F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1FD09F294B58DC95A8CB0A991FF6E90 /* Pods-ERNiftyExtensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ERNiftyExtensions_Example-dummy.m"; sourceTree = "<group>"; };
-		A83B0C5FB8D35B1910AC63E3F8BD1B13 /* ERNiftyExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ERNiftyExtensions.framework; path = ERNiftyExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83B0C5FB8D35B1910AC63E3F8BD1B13 /* ERNiftyExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ERNiftyExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA64F67AEAC152D1FB07689DAAEF824E /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE9D3D7C577F2C2BFCFE1A890AF0FE1 /* AEADChaCha20Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEADChaCha20Poly1305.swift; path = Sources/CryptoSwift/AEAD/AEADChaCha20Poly1305.swift; sourceTree = "<group>"; };
 		ACD17C1D3085CA3DB444668CEC32ABB4 /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS/PBKDF2.swift; sourceTree = "<group>"; };
 		B0F30CA2C753B0E8168F874AF7A02A55 /* ERNiftyExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ERNiftyExtensions.xcconfig; sourceTree = "<group>"; };
 		B1AC77FB421C255C9B93A82C8232ED27 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
-		B4134F75F4330160336715175C69BD96 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4134F75F4330160336715175C69BD96 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93C2B689C9D9B1BC45ED364607E0CD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5317D88E847778666BFC9653AA1416 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
 		BB0AEB98D1B99A5CDEA4322F79CDEBE4 /* Pods-ERNiftyExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERNiftyExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -265,9 +242,8 @@
 		C00EEE37E1DE43C9E04802C39739B592 /* Pods-ERNiftyExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ERNiftyExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C1B6585AFA2B133A32E139E134AAD229 /* Digest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = Sources/CryptoSwift/Digest.swift; sourceTree = "<group>"; };
 		C1EBF83F23304739C32AC8BDC2D2108B /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
-		C25806725360A26CDAE11FD6C7A99C33 /* Date+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Nifty.swift"; path = "ERNiftyExtensions/Classes/Date+Nifty.swift"; sourceTree = "<group>"; };
 		C262699F1FC37A67739AD8825C304960 /* Pods-ERNiftyExtensions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ERNiftyExtensions_Example-resources.sh"; sourceTree = "<group>"; };
-		C350AB029DAEDA18EFFD96FD253ED479 /* Pods_ERNiftyExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ERNiftyExtensions_Tests.framework; path = "Pods-ERNiftyExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C350AB029DAEDA18EFFD96FD253ED479 /* Pods_ERNiftyExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERNiftyExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C514D7AA577DC75F6837C6381CF03407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C960DADA054FE58CBF402A00C24803CB /* ERNiftyExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ERNiftyExtensions-umbrella.h"; sourceTree = "<group>"; };
 		CB35490F9FAFEFAF2F8C6B3681E0D29E /* HKDF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKDF.swift; path = Sources/CryptoSwift/HKDF.swift; sourceTree = "<group>"; };
@@ -275,27 +251,51 @@
 		D214A0D0E400E681241750B2CD921AF6 /* Blowfish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blowfish.swift; path = Sources/CryptoSwift/Blowfish.swift; sourceTree = "<group>"; };
 		D3FC2DFD4E5DCD1DA54CA63B16669528 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
 		D5D1EE8317A83A9B39D330CCDA110F6A /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
-		DA7613E7D376D29146A34E84D3783A84 /* UICollectionReusableView+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionReusableView+Nifty.swift"; path = "ERNiftyExtensions/Classes/UICollectionReusableView+Nifty.swift"; sourceTree = "<group>"; };
 		DB4A9D6FCA670BB3436AE86185E2B136 /* Pods-ERNiftyExtensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ERNiftyExtensions_Tests-resources.sh"; sourceTree = "<group>"; };
 		DD64546BFB75F5E9535C555DEB85D9A5 /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
 		DD99BDFB421441F3E89BBD78CD7FC859 /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
-		E2B434BC04E208C1221D2342013B8759 /* IndexPath+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+Nifty.swift"; path = "ERNiftyExtensions/Classes/IndexPath+Nifty.swift"; sourceTree = "<group>"; };
 		E369BC32163055667CF3FC3F6B3881EC /* PKCS7Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7Padding.swift; path = Sources/CryptoSwift/PKCS/PKCS7Padding.swift; sourceTree = "<group>"; };
-		E3B51413B333B9275E470D23F27B6E09 /* RawRepresentable+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RawRepresentable+Nifty.swift"; path = "ERNiftyExtensions/Classes/RawRepresentable+Nifty.swift"; sourceTree = "<group>"; };
 		E519066A77824BB938C17BF262460D14 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
 		E77E2D7CE52E01CABA073B0D2105C752 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
 		E832F8758E2062F70A00F4F44CE5B599 /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
-		E927A2DD1DD1DFC8C2D7E1BAD31C4636 /* String+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Nifty.swift"; path = "ERNiftyExtensions/Classes/String+Nifty.swift"; sourceTree = "<group>"; };
 		EC6CB77AA98BEC4A4D962EED1DBE5E1A /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
 		F046E80AB9F7BC6FC035FA57B4381A3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		F064CA9509F9BFC891F9F164FE160BE4 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
 		F261DFBE96E54F38A3A3BA14864C6444 /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
-		F47F153A986F8992B59E8AE239F5D881 /* Double+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Nifty.swift"; path = "ERNiftyExtensions/Classes/Double+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0020CB26710046EC93 /* CAGradientLayer+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0120CB26710046EC93 /* String+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0220CB26710046EC93 /* UIPageViewController+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0320CB26710046EC93 /* Array+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0420CB26710046EC93 /* UICollectionReusableView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0520CB26710046EC93 /* Bundle+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0620CB26710046EC93 /* Double+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0720CB26710046EC93 /* Date+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0820CB26710046EC93 /* CALayer+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0920CB26710046EC93 /* RawRepresentable+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RawRepresentable+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0A20CB26710046EC93 /* NSObject+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0B20CB26710046EC93 /* UILabel+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0C20CB26720046EC93 /* UITableViewCell+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0D20CB26720046EC93 /* Data+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0E20CB26720046EC93 /* Notification.Name+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F0F20CB26720046EC93 /* UIStoryboard+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1020CB26720046EC93 /* UITableView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1120CB26720046EC93 /* UIScrollView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1220CB26720046EC93 /* UICollectionView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1320CB26720046EC93 /* CGAffineTransform+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1420CB26720046EC93 /* UIView+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1520CB26720046EC93 /* CLLocation+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1620CB26720046EC93 /* UIColor+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1720CB26720046EC93 /* Error+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1820CB26720046EC93 /* CGSize+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1920CB26720046EC93 /* UIImage+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1A20CB26720046EC93 /* UIViewController+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1B20CB26730046EC93 /* NSMutableAttributedString+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1C20CB26730046EC93 /* Int+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1D20CB26730046EC93 /* UITextField+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Nifty.swift"; sourceTree = "<group>"; };
+		F38F4F1E20CB26730046EC93 /* IndexPath+Nifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IndexPath+Nifty.swift"; sourceTree = "<group>"; };
 		F64ADD5044AC18FD9A874D536408B5C0 /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
 		F68E05F96F4000F2D2929B31B614AEAF /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
-		F690E057B4D22AFD85EDEAFD3844E4C5 /* UIStoryboard+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Nifty.swift"; path = "ERNiftyExtensions/Classes/UIStoryboard+Nifty.swift"; sourceTree = "<group>"; };
 		F6E3AB2C85BD1E7FA8A06DEC59C25460 /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
-		F97B62167359F6A43A450BC1284B39B0 /* Data+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Nifty.swift"; path = "ERNiftyExtensions/Classes/Data+Nifty.swift"; sourceTree = "<group>"; };
 		F9E2BF9BAD42880ED97A7D3B6B0DD6C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FAE7F2FB1AEC237C932418EFA88224F9 /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
 		FBB165A7024F939BE38D7A92871D60C1 /* Pods-ERNiftyExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ERNiftyExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -476,7 +476,6 @@
 				10D3C1B32395DF18ECC1A965404A384C /* ZeroPadding.swift */,
 				334A4D45A17DA0861A15DAEE01A135A8 /* Support Files */,
 			);
-			name = CryptoSwift;
 			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
@@ -553,38 +552,12 @@
 		E1848F4E35640CEE9CAD7D60473D54D9 /* ERNiftyExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				6473CE09426E36B37DE17CE7D534E581 /* Array+Nifty.swift */,
-				81F8203D72D615031061B616699B0B3C /* Bundle+Nifty.swift */,
-				075747C6629DCCC5FAE3BF77E8084444 /* CAGradientLayer+Nifty.swift */,
-				00E7125BE7209C33E5911FE2C946E330 /* CALayer+Nifty.swift */,
-				9D4C591C27677EC63A60B2506D508FFC /* CGAffineTransform+Nifty.swift */,
-				73AD0489B261233044E6366E844C65E7 /* CGSize+Nifty.swift */,
-				13C135C3D5C22A309777E9ADDE58883E /* CLLocation+Nifty.swift */,
-				F97B62167359F6A43A450BC1284B39B0 /* Data+Nifty.swift */,
-				C25806725360A26CDAE11FD6C7A99C33 /* Date+Nifty.swift */,
-				F47F153A986F8992B59E8AE239F5D881 /* Double+Nifty.swift */,
-				8FC28611E582F16AAE7F7C5C292D0988 /* Error+Nifty.swift */,
-				E2B434BC04E208C1221D2342013B8759 /* IndexPath+Nifty.swift */,
-				512280CB4810A26E1AFDE68EE1D59360 /* Int+Nifty.swift */,
-				065BB2CF615DF3AB35F4F1898912C721 /* Notification.Name+Nifty.swift */,
-				81109DCE89DE8849AAEA821F5DBDA34C /* NSMutableAttributedString+Nifty.swift */,
-				5AA74418855C025A5CA04530DF440205 /* NSObject+Nifty.swift */,
-				E3B51413B333B9275E470D23F27B6E09 /* RawRepresentable+Nifty.swift */,
-				E927A2DD1DD1DFC8C2D7E1BAD31C4636 /* String+Nifty.swift */,
-				DA7613E7D376D29146A34E84D3783A84 /* UICollectionReusableView+Nifty.swift */,
-				1AD5F1A618DF98AE9B4709E81B635048 /* UICollectionView+Nifty.swift */,
-				90DEF121387FD5A0A2DB694F9F2D0300 /* UIColor+Nifty.swift */,
-				7372BCF5611DAB56BA0C83AF2FA9BEC7 /* UIImage+Nifty.swift */,
-				1C66168F895FFD79A246A52E2711267D /* UILabel+Nifty.swift */,
-				62960F396E7313152F44C117766C0E35 /* UIPageViewController+Nifty.swift */,
-				656584E4E53DB2458E076F55C324CBAA /* UIScrollView+Nifty.swift */,
-				F690E057B4D22AFD85EDEAFD3844E4C5 /* UIStoryboard+Nifty.swift */,
-				311AAC1DD3875DC41F0DC07C39543832 /* UITableView+Nifty.swift */,
-				8C4F41775C2C1938FBE26775C6B26CEA /* UITableViewCell+Nifty.swift */,
-				8344CA4801D71F607EEB9BD93546F524 /* UITextField+Nifty.swift */,
-				74F20D266B4BB60EFAA8B7A0920BF781 /* UIView+Nifty.swift */,
-				7F349870ACA1824EFBC23D2F319631C4 /* UIViewController+Nifty.swift */,
 				E73F613E87DF75E6256F845EC0BD7832 /* Pod */,
+				F3F2CC6920CB27A1004C4BF8 /* CoreAnimation */,
+				F3F2CC6A20CB27D7004C4BF8 /* CoreGraphics */,
+				F3F2CC6B20CB27FF004C4BF8 /* CoreLocation */,
+				F38F4EFF20CB26630046EC93 /* Foundation */,
+				F3F2CC6C20CB2887004C4BF8 /* UIKit */,
 				7C6A055745BDEFF108F76A2761F2F8F4 /* Support Files */,
 			);
 			name = ERNiftyExtensions;
@@ -599,6 +572,77 @@
 				4AAAA88E9142978283EE0A1E10D425B6 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		F38F4EFF20CB26630046EC93 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F38F4F0320CB26710046EC93 /* Array+Nifty.swift */,
+				F38F4F0520CB26710046EC93 /* Bundle+Nifty.swift */,
+				F38F4F0D20CB26720046EC93 /* Data+Nifty.swift */,
+				F38F4F0720CB26710046EC93 /* Date+Nifty.swift */,
+				F38F4F0620CB26710046EC93 /* Double+Nifty.swift */,
+				F38F4F1720CB26720046EC93 /* Error+Nifty.swift */,
+				F38F4F1E20CB26730046EC93 /* IndexPath+Nifty.swift */,
+				F38F4F1C20CB26730046EC93 /* Int+Nifty.swift */,
+				F38F4F0E20CB26720046EC93 /* Notification.Name+Nifty.swift */,
+				F38F4F1B20CB26730046EC93 /* NSMutableAttributedString+Nifty.swift */,
+				F38F4F0A20CB26710046EC93 /* NSObject+Nifty.swift */,
+				F38F4F0920CB26710046EC93 /* RawRepresentable+Nifty.swift */,
+				F38F4F0120CB26710046EC93 /* String+Nifty.swift */,
+			);
+			name = Foundation;
+			path = ERNiftyExtensions/Classes/Foundation;
+			sourceTree = "<group>";
+		};
+		F3F2CC6920CB27A1004C4BF8 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F38F4F0020CB26710046EC93 /* CAGradientLayer+Nifty.swift */,
+				F38F4F0820CB26710046EC93 /* CALayer+Nifty.swift */,
+			);
+			name = CoreAnimation;
+			path = ERNiftyExtensions/Classes/CoreAnimation;
+			sourceTree = "<group>";
+		};
+		F3F2CC6A20CB27D7004C4BF8 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				F38F4F1320CB26720046EC93 /* CGAffineTransform+Nifty.swift */,
+				F38F4F1820CB26720046EC93 /* CGSize+Nifty.swift */,
+			);
+			name = CoreGraphics;
+			path = ERNiftyExtensions/Classes/CoreGraphics;
+			sourceTree = "<group>";
+		};
+		F3F2CC6B20CB27FF004C4BF8 /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				F38F4F1520CB26720046EC93 /* CLLocation+Nifty.swift */,
+			);
+			name = CoreLocation;
+			path = ERNiftyExtensions/Classes/CoreLocation;
+			sourceTree = "<group>";
+		};
+		F3F2CC6C20CB2887004C4BF8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F38F4F0420CB26710046EC93 /* UICollectionReusableView+Nifty.swift */,
+				F38F4F1220CB26720046EC93 /* UICollectionView+Nifty.swift */,
+				F38F4F1620CB26720046EC93 /* UIColor+Nifty.swift */,
+				F38F4F1920CB26720046EC93 /* UIImage+Nifty.swift */,
+				F38F4F0B20CB26710046EC93 /* UILabel+Nifty.swift */,
+				F38F4F0220CB26710046EC93 /* UIPageViewController+Nifty.swift */,
+				F38F4F1120CB26720046EC93 /* UIScrollView+Nifty.swift */,
+				F38F4F0F20CB26720046EC93 /* UIStoryboard+Nifty.swift */,
+				F38F4F1020CB26720046EC93 /* UITableView+Nifty.swift */,
+				F38F4F0C20CB26720046EC93 /* UITableViewCell+Nifty.swift */,
+				F38F4F1D20CB26730046EC93 /* UITextField+Nifty.swift */,
+				F38F4F1420CB26720046EC93 /* UIView+Nifty.swift */,
+				F38F4F1A20CB26720046EC93 /* UIViewController+Nifty.swift */,
+			);
+			name = UIKit;
+			path = ERNiftyExtensions/Classes/UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -718,7 +762,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					89406E7C2BD1E18C748CF314A2DFF2F4 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -745,38 +794,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207694D329FE9829A97A37BFB68A5E26 /* Array+Nifty.swift in Sources */,
-				4029E403487222AEBB3DCEC8A3A6C01F /* Bundle+Nifty.swift in Sources */,
-				8F30B04371A5E9C5ED9531213FCA5504 /* CAGradientLayer+Nifty.swift in Sources */,
-				F3B2BD6342AEBF7E8733F57414376D06 /* CALayer+Nifty.swift in Sources */,
-				113C44322802AE3BC30AC9AFE9673AA9 /* CGAffineTransform+Nifty.swift in Sources */,
-				32DA3E2E21A92D19A767E6214D7162D5 /* CGSize+Nifty.swift in Sources */,
-				F1731788B8B807D9D4D1B13EAE144C55 /* CLLocation+Nifty.swift in Sources */,
-				1E063B3B5257C27931E2EF1C0188158E /* Data+Nifty.swift in Sources */,
-				BD20179B9C7E2376EFCB17771C79F95F /* Date+Nifty.swift in Sources */,
-				DB54EA5E0C4FDDAEF8359F4A0A0092E3 /* Double+Nifty.swift in Sources */,
+				F38F4F3420CB26730046EC93 /* CLLocation+Nifty.swift in Sources */,
+				F38F4F3220CB26730046EC93 /* CGAffineTransform+Nifty.swift in Sources */,
+				F38F4F2E20CB26730046EC93 /* UIStoryboard+Nifty.swift in Sources */,
+				F38F4F2920CB26730046EC93 /* NSObject+Nifty.swift in Sources */,
+				F38F4F2120CB26730046EC93 /* UIPageViewController+Nifty.swift in Sources */,
+				F38F4F2820CB26730046EC93 /* RawRepresentable+Nifty.swift in Sources */,
+				F38F4F2D20CB26730046EC93 /* Notification.Name+Nifty.swift in Sources */,
+				F38F4F3620CB26730046EC93 /* Error+Nifty.swift in Sources */,
+				F38F4F2C20CB26730046EC93 /* Data+Nifty.swift in Sources */,
+				F38F4F3A20CB26730046EC93 /* NSMutableAttributedString+Nifty.swift in Sources */,
+				F38F4F3D20CB26730046EC93 /* IndexPath+Nifty.swift in Sources */,
+				F38F4F3520CB26730046EC93 /* UIColor+Nifty.swift in Sources */,
+				F38F4F3020CB26730046EC93 /* UIScrollView+Nifty.swift in Sources */,
+				F38F4F1F20CB26730046EC93 /* CAGradientLayer+Nifty.swift in Sources */,
+				F38F4F2720CB26730046EC93 /* CALayer+Nifty.swift in Sources */,
+				F38F4F2020CB26730046EC93 /* String+Nifty.swift in Sources */,
+				F38F4F2220CB26730046EC93 /* Array+Nifty.swift in Sources */,
+				F38F4F2320CB26730046EC93 /* UICollectionReusableView+Nifty.swift in Sources */,
+				F38F4F3820CB26730046EC93 /* UIImage+Nifty.swift in Sources */,
+				F38F4F3B20CB26730046EC93 /* Int+Nifty.swift in Sources */,
+				F38F4F2520CB26730046EC93 /* Double+Nifty.swift in Sources */,
+				F38F4F3720CB26730046EC93 /* CGSize+Nifty.swift in Sources */,
+				F38F4F3C20CB26730046EC93 /* UITextField+Nifty.swift in Sources */,
+				F38F4F3120CB26730046EC93 /* UICollectionView+Nifty.swift in Sources */,
+				F38F4F2620CB26730046EC93 /* Date+Nifty.swift in Sources */,
+				F38F4F3920CB26730046EC93 /* UIViewController+Nifty.swift in Sources */,
 				FB4BB6A88BE70911BB6D6EECEDAE7E0E /* ERNiftyExtensions-dummy.m in Sources */,
-				BA655964C6AB2221E6ECCAAE4908E6D0 /* Error+Nifty.swift in Sources */,
-				09020EDF3829403DC7013BA62BAB2C11 /* IndexPath+Nifty.swift in Sources */,
-				11A7E1BC8C9F2CDC38DE3BA494937BFE /* Int+Nifty.swift in Sources */,
-				AC486A1A515997BEE022BE4E69AEDBE3 /* Notification.Name+Nifty.swift in Sources */,
-				4D884B5F76C612B85EFEBF3F6E8B009A /* NSMutableAttributedString+Nifty.swift in Sources */,
-				39FB906258D905340C6BC73F3FF8A6C8 /* NSObject+Nifty.swift in Sources */,
-				363FEA5C7E11BFDF3CF29AAA5EC7B067 /* RawRepresentable+Nifty.swift in Sources */,
-				AAB23F3313AB3FFB7F15D4D3F480E00A /* String+Nifty.swift in Sources */,
-				B6C5C2EC072E29F7097303BED62734A4 /* UICollectionReusableView+Nifty.swift in Sources */,
-				C103D7AF8D3D87365E886B48EEF6FE2F /* UICollectionView+Nifty.swift in Sources */,
-				12301276C43513392818B1D512C82DC0 /* UIColor+Nifty.swift in Sources */,
-				9AC738C2208E850F234114847BAF2851 /* UIImage+Nifty.swift in Sources */,
-				B4F9A1B579E139D3B5D0B3C5ABBAC988 /* UILabel+Nifty.swift in Sources */,
-				330CE7BE7B97E90B7780EC5D8B6248BD /* UIPageViewController+Nifty.swift in Sources */,
-				649D68C6AFF7CF3E24CB1394B57F489A /* UIScrollView+Nifty.swift in Sources */,
-				56503CB88FFF1898D2B622831AB48C02 /* UIStoryboard+Nifty.swift in Sources */,
-				EDA0D8EFFE165DC4A8F6FE0F66D8A99A /* UITableView+Nifty.swift in Sources */,
-				F5F9E04F1E2EFA6532A92FB7DC484EB1 /* UITableViewCell+Nifty.swift in Sources */,
-				95C420BDB11F23DE78F7C7921E28719B /* UITextField+Nifty.swift in Sources */,
-				7D7CD54A9C7A3326CA3CEBC277893CC5 /* UIView+Nifty.swift in Sources */,
-				E44401F905E2982CD17AAFBDA6615930 /* UIViewController+Nifty.swift in Sources */,
+				F38F4F2420CB26730046EC93 /* Bundle+Nifty.swift in Sources */,
+				F38F4F2B20CB26730046EC93 /* UITableViewCell+Nifty.swift in Sources */,
+				F38F4F2F20CB26730046EC93 /* UITableView+Nifty.swift in Sources */,
+				F38F4F2A20CB26730046EC93 /* UILabel+Nifty.swift in Sources */,
+				F38F4F3320CB26730046EC93 /* UIView+Nifty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,6 +956,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0F30CA2C753B0E8168F874AF7A02A55 /* ERNiftyExtensions.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1190,6 +1240,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -1267,6 +1318,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0F30CA2C753B0E8168F874AF7A02A55 /* ERNiftyExtensions.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

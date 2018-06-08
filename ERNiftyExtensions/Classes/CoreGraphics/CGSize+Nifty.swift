@@ -6,6 +6,8 @@
 //
 //
 
+import CoreGraphics
+
 extension CGSize {
   
   /// Reverses the `width` and `height` values.

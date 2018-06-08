@@ -6,6 +6,8 @@
 //
 //
 
+import Foundation
+
 extension Array {
     
     /// Returns a random element from the array.
