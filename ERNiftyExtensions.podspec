@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ERNiftyExtensions'
-  s.version          = '3.2.8'
+  s.version          = '3.2.9'
   s.summary          = 'A library of helpful extensions for UIKit & Foundation that one iOS developer has picked up over the years.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  s.watchos.deployment_target = '4.0'
+  
   s.source_files = 'ERNiftyExtensions/Classes/**/*'
   
   # s.resource_bundles = {
