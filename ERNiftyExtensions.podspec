@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
       
       foundation.source_files = 'ERNiftyExtensions/Classes/Foundation/*.{swift}'
       
-      foundation.dependency 'CryptoSwift'
+      foundation.dependency 'CryptoSwift', '~> 0.9.0'
       
       foundation.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
 
