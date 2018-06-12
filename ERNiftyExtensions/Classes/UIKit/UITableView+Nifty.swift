@@ -16,7 +16,12 @@ extension UITableView {
     guard let T = cellType as? UITableViewCell.Type else {return}
     self.register(T.nib, forCellReuseIdentifier: T.identifier)
   }
-  
+    
+  public func register<T: UITableViewCell>(_ cellType: T.Type) {
+    //guard let T = cellType as? UITableViewCell.Type else {return}
+    self.register(T.nib, forCellReuseIdentifier: T.identifier)
+  }
+    
   public func dequeCell<T:UITableViewCell>(for indexPath:IndexPath) -> T {
     let v = self.dequeueReusableCell(withIdentifier: T.identifier, for: indexPath) as! T
     return v
