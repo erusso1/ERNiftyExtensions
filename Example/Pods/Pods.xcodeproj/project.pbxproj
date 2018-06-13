@@ -115,6 +115,7 @@
 		EF9103A06C99DB11BAC1C4502077910F /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC23DDE8F4709B0B949CDBDF020561 /* BatchedCollection.swift */; };
 		F051D55F9B61B1A99C0373BB34596CCE /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE9F2C6D2CF5D2334A2251D3C67F56 /* Updatable.swift */; };
 		F237A58AF17C8629C067A708B360DD2B /* CALayer+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A22135FAC84ACEBF3D1F54CA17080A /* CALayer+Nifty.swift */; };
+		F3D18D3E20D1AA0F002D97C4 /* NSLayoutConstraint+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D18D3C20D1A98C002D97C4 /* NSLayoutConstraint+Nifty.swift */; };
 		F8D63D2D788CE411008A021E415232B5 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4011508566410488358B0A8AEDD5B /* ChaCha20.swift */; };
 		FB15BA25D32470A8F482BCC939D13C1B /* AEAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5C9EAE6473A739E2196D481DDC277 /* AEAD.swift */; };
 		FD0B285E66327F65BAE920B1A7068F75 /* UICollectionView+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B563945D00E4EAFC752BCB23733005E /* UICollectionView+Nifty.swift */; };
@@ -289,6 +290,7 @@
 		ED8768B1C9712E52907E87AD7F60043A /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
 		EF0D69C4D88CB7F853B9DEAA2352D550 /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
 		F393BFE3E6DB7999E7E36B2ADB041D2B /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
+		F3D18D3C20D1A98C002D97C4 /* NSLayoutConstraint+Nifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Nifty.swift"; sourceTree = "<group>"; };
 		F51FCB1AC1C375BA4593F28EF49B046C /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
 		F7D425E227D171A737AB593757793F17 /* Array+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Nifty.swift"; sourceTree = "<group>"; };
 		F89738B5C3A5B0E5EDA0E8905DDFC0E6 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
@@ -517,6 +519,7 @@
 				73C277BA586D8522E86482632BE43186 /* UITextField+Nifty.swift */,
 				7AC41B96C3A0373001BE68C35E61AF34 /* UIView+Nifty.swift */,
 				96601931A38E0D7B639A2C0DD552F966 /* UIViewController+Nifty.swift */,
+				F3D18D3C20D1A98C002D97C4 /* NSLayoutConstraint+Nifty.swift */,
 			);
 			name = UIKit;
 			path = ERNiftyExtensions/Classes/UIKit;
@@ -877,6 +880,7 @@
 				0D96A0CF6AEFEFF74EA9A12CB26EE6AB /* Double+Nifty.swift in Sources */,
 				A8541EE8F2605233A4EC9AA556E7B63D /* ERNiftyExtensions-dummy.m in Sources */,
 				390D7A4282192D19F53B417F23D0645F /* Error+Nifty.swift in Sources */,
+				F3D18D3E20D1AA0F002D97C4 /* NSLayoutConstraint+Nifty.swift in Sources */,
 				0F680BABF57A54ADE3CC17D43E26F8B2 /* IndexPath+Nifty.swift in Sources */,
 				4591C25DF021AF1276791719D97C3516 /* Int+Nifty.swift in Sources */,
 				6789B1704837BD11A2B09EAC8EE00864 /* Notification.Name+Nifty.swift in Sources */,
