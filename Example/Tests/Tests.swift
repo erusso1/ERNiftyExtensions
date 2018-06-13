@@ -94,6 +94,28 @@ class Tests: XCTestCase {
         }
     }
     
+    func testContainsURL() {
+ 
+        let someTextWithoutURL = "hello world is a pretty chill website"
+        
+        let urls = ["hello world http://apple.com/ is a pretty chill website", "hello world https://apple.com/ is a pretty chill website", "hello world apple.com is a pretty chill website", "hello world www.apple.com is a pretty chill website"]
+        
+        urls.forEach { (url) in XCTAssertTrue(url.containsURL) }
+
+        XCTAssertFalse(someTextWithoutURL.containsURL)
+    }
+    
+    func testIsEmail() {
+        
+        let notemail = "joe@mail"
+        
+        let emails = ["joe@mail.co", "joe@mail.com", "joe@mail.mail", "joe@joe.bro", "joe@joe.edu"]
+        
+        emails.forEach { (email) in XCTAssertTrue(email.isEmail) }
+        
+        XCTAssertFalse(notemail.isEmail)
+    }
+    
     func testEncryption() {
         
         let key = String.random(length: 32)
