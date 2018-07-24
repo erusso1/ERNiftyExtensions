@@ -117,15 +117,16 @@ extension UIView {
         self.layer.mask = shape
     }
     
-    public func shake(count : Float = 4,for duration : TimeInterval = 0.3,withTranslation translation : Float = 16) {
+    public func shake(count : Float = 4,for duration : TimeInterval = 0.07,withTranslation translation : CGFloat = 10) {
         
-        let animation : CABasicAnimation = CABasicAnimation(keyPath: "transform.translation.x")
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        let animation = CABasicAnimation(keyPath: "position")
+        animation.duration = duration
         animation.repeatCount = count
-        animation.duration = duration/TimeInterval(animation.repeatCount)
         animation.autoreverses = true
-        animation.byValue = translation
-        self.layer.add(animation, forKey: "shake")
+        animation.fromValue = NSValue(cgPoint: CGPoint(x: self.center.x - translation, y: self.center.y))
+        animation.toValue = NSValue(cgPoint: CGPoint(x: self.center.x + translation, y: self.center.y))
+        
+        self.layer.add(animation, forKey: "position")
     }
 }
 
