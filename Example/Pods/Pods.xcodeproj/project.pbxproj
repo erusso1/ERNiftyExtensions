@@ -555,7 +555,9 @@
 				620DA59495D05C0FB0CFEA111B60FE94 /* Products */,
 				03E90456972BCE441BF3D0CEA356AD5D /* Targets Support Files */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		8E56C4D33537E06C34F5C77D1EE4109C /* Foundation */ = {
 			isa = PBXGroup;

@@ -43,11 +43,11 @@ extension UIViewController {
     return v
   }
   
-  public func presentSettingsAlertWithTitle(_ title: String, message: String) {
+    public func presentSettingsAlertWithTitle(_ title: String, message: String, cancelHandler: @escaping (UIAlertAction) -> Void) {
     
     let alertController = UIAlertController( title: title, message: message, preferredStyle: .alert)
     
-    let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+    let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: cancelHandler)
     
     let openAction = UIAlertAction(title: "Open Settings", style: .default) { (action) in
       
