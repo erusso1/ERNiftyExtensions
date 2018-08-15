@@ -43,7 +43,7 @@ extension UIViewController {
     return v
   }
   
-    public func presentSettingsAlertWithTitle(_ title: String, message: String, cancelHandler: @escaping (UIAlertAction) -> Void) {
+    public func presentSettingsAlertWithTitle(_ title: String, message: String, cancelHandler: ((UIAlertAction) -> Void)? = nil) {
     
     let alertController = UIAlertController( title: title, message: message, preferredStyle: .alert)
     
