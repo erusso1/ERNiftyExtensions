@@ -180,22 +180,18 @@ extension String {
     return chars
   }
   
-  public func hashedPassword() -> String
-  {
-    func createHash(string: String) -> String {
-      
-      guard !string.isEmpty else {return ""}
-      
-      guard let data = string.data(using: .utf8) else {return ""}
-      
-      let digest = Digest.sha512(data.bytes)
-      
-      let output = digest.map({String(format: "%02x", $0)}).joined().uppercased()
-      
-      return output
-    }
+  /// Returns a hashed string by applying the `sha512` hashing algorithm to the receiver.
+  public func hashed() -> String {
     
-    return createHash(string: createHash(string: self))
+    guard !isEmpty else {return ""}
+    
+    guard let data = data(using: .utf8) else {return ""}
+    
+    let digest = Digest.sha512(data.bytes)
+    
+    let output = digest.map({String(format: "%02x", $0)}).joined().uppercased()
+    
+    return output
   }
   
   public static func random(length: Int) -> String {
