@@ -122,7 +122,7 @@ class Tests: XCTestCase {
         
         let iv = String.random(length: 16)
 
-        let json = ["username" : "SkankHunt42", "token" : "wkbvwkrgvhwbgirkwirubgliwrngli", "SSN" : "123-45-6789"]
+        let json = ["username" : "SomeUser34", "token" : "wkbvwkrgvhwbgirkwirubgliwrngli", "SSN" : "123-45-6789"]
         
         let rawData = try! JSONSerialization.data(withJSONObject: json, options: [])
         
@@ -144,5 +144,14 @@ class Tests: XCTestCase {
         //print(String.init(data: rawData, encoding: .utf8)!, String.init(data: encryptedData, encoding: .utf8)!, String.init(data: decryptedData, encoding: .utf8)!)
 
         XCTAssertEqual(decryptedData, rawData)
+    }
+    
+    func testStringHash() {
+        
+        let stringToHash = "some_string_to_hash"
+        
+        let hashed = stringToHash.hashed()
+        
+        XCTAssertEqual(hashed, "CA12C5B2403346279F4395D4849D7836308944441BC5AD3C0537C5C14F6F2ABD004B73AFF314368AAF755F3BF81A9A5A9C1C7F5C91321C611D63F6978D5DA3E8")
     }
 }

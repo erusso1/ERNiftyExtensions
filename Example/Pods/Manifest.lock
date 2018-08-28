@@ -1,9 +1,9 @@
 PODS:
-  - CryptoSwift (0.9.0)
-  - ERNiftyExtensions (3.3.1):
-    - ERNiftyExtensions/Foundation (= 3.3.1)
-  - ERNiftyExtensions/Foundation (3.3.1):
-    - CryptoSwift (~> 0.9.0)
+  - CryptoSwift (0.11.0)
+  - ERNiftyExtensions (3.3.8):
+    - ERNiftyExtensions/Foundation (= 3.3.8)
+  - ERNiftyExtensions/Foundation (3.3.8):
+    - CryptoSwift
 
 DEPENDENCIES:
   - ERNiftyExtensions (from `../`)
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
-  ERNiftyExtensions: 302646a0d7844cd30aa94a5e050242c80ca2f3d5
+  CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
+  ERNiftyExtensions: 17ed1e24d873f8459196b4b3b3abe0ee6fd50237
 
 PODFILE CHECKSUM: 596ab9fa05227ae8f655c61814f610afbbf7d656
 
