@@ -13,11 +13,12 @@
 //  - This notice may not be removed or altered from any source or binary distribution.
 //
 
-import Foundation
-
-extension AES {
-    /// Initialize with CBC block mode.
-    public convenience init(key: String, iv: String, padding: Padding = .pkcs7) throws {
-        try self.init(key: key.bytes, blockMode: .CBC(iv: iv.bytes), padding: padding)
-    }
+/// Random access cryptor
+public protocol RandomAccessCryptor: Updatable {
+    /// Seek to position in file, if block mode allows random access.
+    ///
+    /// - parameter to: new value of counter
+    ///
+    /// - returns: true if seek succeed
+    @discardableResult mutating func seek(to: Int) -> Bool
 }

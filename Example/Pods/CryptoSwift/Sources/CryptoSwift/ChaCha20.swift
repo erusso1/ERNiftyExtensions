@@ -19,7 +19,6 @@
 public final class ChaCha20: BlockCipher {
     public enum Error: Swift.Error {
         case invalidKeyOrInitializationVector
-        case notSupported
     }
 
     public static let blockSize = 64 // 512 / 8
@@ -255,7 +254,7 @@ extension ChaCha20: Cipher {
 // MARK: Encryptor
 
 extension ChaCha20 {
-    public struct ChaChaEncryptor: Cryptor, Updatable {
+    public struct Encryptor: Updatable {
         private var accumulated = Array<UInt8>()
         private let chacha: ChaCha20
 
@@ -276,17 +275,13 @@ extension ChaCha20 {
             }
             return encrypted
         }
-
-        public func seek(to: Int) throws {
-            throw Error.notSupported
-        }
     }
 }
 
 // MARK: Decryptor
 
 extension ChaCha20 {
-    public struct ChaChaDecryptor: Cryptor, Updatable {
+    public struct Decryptor: Updatable {
         private var accumulated = Array<UInt8>()
 
         private var offset: Int = 0
@@ -325,23 +320,17 @@ extension ChaCha20 {
 
             return plaintext
         }
-
-        public func seek(to: Int) throws {
-            throw Error.notSupported
-        }
     }
 }
 
 // MARK: Cryptors
 
 extension ChaCha20: Cryptors {
-    //TODO: Use BlockEncryptor/BlockDecryptor
-    
-    public func makeEncryptor() -> Cryptor & Updatable {
-        return ChaCha20.ChaChaEncryptor(chacha: self)
+    public func makeEncryptor() -> ChaCha20.Encryptor {
+        return Encryptor(chacha: self)
     }
 
-    public func makeDecryptor() -> Cryptor & Updatable {
-        return ChaCha20.ChaChaDecryptor(chacha: self)
+    public func makeDecryptor() -> ChaCha20.Decryptor {
+        return Decryptor(chacha: self)
     }
 }
