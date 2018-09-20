@@ -166,7 +166,7 @@ extension UIView {
         
         guard let containingView = self.superview else {return}
         
-        let attributes: [NSLayoutAttribute] = [.top, .bottom, .left, .right]
+        let attributes: [NSLayoutConstraint.Attribute] = [.top, .bottom, .left, .right]
         
         attributes.forEach { attribute in
             

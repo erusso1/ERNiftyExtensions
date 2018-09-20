@@ -14,8 +14,8 @@ extension UILabel {
   public func setTextAnimated(_ text:String?, duration:TimeInterval=0.25) {
     
     let animation = CATransition()
-    animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
-    animation.type = kCATransitionFade
+    animation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+    animation.type = .fade
     animation.duration = duration
     self.layer.add(animation, forKey: "kCATransitionFade")
     self.text = text
