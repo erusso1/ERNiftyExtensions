@@ -62,9 +62,27 @@ extension UIView {
                 
                 newValue!.frame = self.bounds
                 newValue!.name = "nifty_gradient_key"
-                self.layer.addSublayer(newValue!)
+                self.layer.insertSublayer(newValue!, at: 0)
             }
         }
+    }
+    
+    public func setBackgroundGradient(colors: [CGColor]?) {
+        self.setBackgroundGradient(colors: colors, start: CGPoint(x: 0.5, y: 0), end: CGPoint(x: 0.5, y: 1))
+    }
+    
+    public func setBackgroundGradient(colors: [CGColor]?, start: CGPoint, end: CGPoint) {
+        
+        guard let colors = colors else { return }
+        
+        let gradientLayer = CAGradientLayer()
+        
+        gradientLayer.frame = self.bounds
+        gradientLayer.colors = colors
+        gradientLayer.startPoint = start
+        gradientLayer.endPoint = end
+        
+        self.gradient = gradientLayer
     }
     
     public var snapshotImage:UIImage? {
