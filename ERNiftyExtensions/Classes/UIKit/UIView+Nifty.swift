@@ -62,7 +62,7 @@ extension UIView {
                 
                 newValue!.frame = self.bounds
                 newValue!.name = "nifty_gradient_key"
-                self.layer.addSublayer(newValue!)
+                self.layer.insertSublayer(newValue!, at: 0)
             }
         }
     }
