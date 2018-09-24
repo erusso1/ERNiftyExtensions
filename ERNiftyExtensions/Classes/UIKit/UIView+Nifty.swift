@@ -49,40 +49,22 @@ extension UIView {
     
     public var gradient: CAGradientLayer? {
         
-        get { return self.layer.sublayer(withName: "nifty_gradient_key") as? CAGradientLayer }
+        get { return self.layer.sublayer(withName: "nifty_background_gradient") as? CAGradientLayer }
         
         set {
             
             if newValue == nil {
-                let g = self.layer.sublayer(withName: "nifty_gradient_key") as! CAGradientLayer
+                let g = self.layer.sublayer(withName: "nifty_background_gradient") as! CAGradientLayer
                 g.removeFromSuperlayer()
             }
                 
             else {
                 
                 newValue!.frame = self.bounds
-                newValue!.name = "nifty_gradient_key"
+                newValue!.name = "nifty_background_gradient"
                 self.layer.insertSublayer(newValue!, at: 0)
             }
         }
-    }
-    
-    public func setBackgroundGradient(colors: [CGColor]?) {
-        self.setBackgroundGradient(colors: colors, start: CGPoint(x: 0.5, y: 0), end: CGPoint(x: 0.5, y: 1))
-    }
-    
-    public func setBackgroundGradient(colors: [CGColor]?, start: CGPoint, end: CGPoint) {
-        
-        guard let colors = colors else { return }
-        
-        let gradientLayer = CAGradientLayer()
-        
-        gradientLayer.frame = self.bounds
-        gradientLayer.colors = colors
-        gradientLayer.startPoint = start
-        gradientLayer.endPoint = end
-        
-        self.gradient = gradientLayer
     }
     
     public var snapshotImage:UIImage? {
