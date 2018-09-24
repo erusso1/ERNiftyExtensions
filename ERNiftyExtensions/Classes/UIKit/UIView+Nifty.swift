@@ -67,6 +67,24 @@ extension UIView {
         }
     }
     
+    public func setBackgroundGradient(colors: [CGColor]?) {
+        self.setBackgroundGradient(colors: colors, start: CGPoint(x: 0.5, y: 0), end: CGPoint(x: 0.5, y: 1))
+    }
+    
+    public func setBackgroundGradient(colors: [CGColor]?, start: CGPoint, end: CGPoint) {
+        
+        guard let colors = colors else { return }
+        
+        let gradientLayer = CAGradientLayer()
+        
+        gradientLayer.frame = self.bounds
+        gradientLayer.colors = colors
+        gradientLayer.startPoint = start
+        gradientLayer.endPoint = end
+        
+        self.gradient = gradientLayer
+    }
+    
     public var snapshotImage:UIImage? {
         
         UIGraphicsBeginImageContextWithOptions(bounds.size, false, UIScreen.main.scale)
