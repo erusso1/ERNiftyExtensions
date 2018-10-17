@@ -60,6 +60,8 @@ extension UIView {
                 
             else {
                 
+                if let existingLayer = self.gradient { existingLayer.removeFromSuperlayer() }
+                
                 newValue!.frame = self.bounds
                 newValue!.name = "nifty_background_gradient"
                 self.layer.insertSublayer(newValue!, at: 0)
