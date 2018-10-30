@@ -26,3 +26,11 @@ extension Array {
         return nil
     }
 }
+
+extension ArraySlice where Element : Any {
+    
+    public func array() -> Array<Element> {
+        
+        return Array(self)
+    }
+}
