@@ -30,4 +30,11 @@ extension Data {
     let decrypted = try! AES(key: key.bytes, blockMode: .CBC(iv: iv.bytes), padding: .pkcs7).decrypt([UInt8](self))
     return Data(decrypted)
   }
+  
+  public static func random(length: Int) -> Data {
+   
+    let data = NSMutableData(length: length)!
+    _ = SecRandomCopyBytes(kSecRandomDefault, data.length, data.mutableBytes)
+    return data as Data
+  }
 }
