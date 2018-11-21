@@ -24,7 +24,7 @@ extension UILabel {
   /// The the line spacing to the passed `spacing` value in point. Only applies after the `text` property has been set.
   public func setLineSpacing(_ spacing: CGFloat) {
     
-    guard let text = self.text else {return}
+    guard let text = self.text, !text.isEmpty else {return}
 
     let preAlignment = self.textAlignment
     
@@ -49,7 +49,7 @@ extension UILabel {
   /// The the line spacing to the passed `spacing` value in point. Only applies after the `text` property has been set.
   public func setCharacterSpacing(_ spacing: CGFloat) {
     
-    guard let text = self.text else {return}
+    guard let text = self.text, !text.isEmpty else {return}
     
     let preAlignment = self.textAlignment
     
