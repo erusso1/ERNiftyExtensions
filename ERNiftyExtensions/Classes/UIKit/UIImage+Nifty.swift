@@ -19,4 +19,11 @@ extension UIImage {
         UIGraphicsEndImageContext();
         return output;
     }
+    
+    public convenience init(from view: UIView) {
+        UIGraphicsBeginImageContextWithOptions(view.bounds.size, true, 0)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        self.init(cgImage:(UIGraphicsGetImageFromCurrentImageContext()?.cgImage!)!)
+        UIGraphicsEndImageContext()
+    }
 }

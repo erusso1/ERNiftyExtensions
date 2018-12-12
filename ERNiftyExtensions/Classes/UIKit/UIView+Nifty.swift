@@ -202,3 +202,14 @@ extension UIView {
     }
 }
 
+extension UIView {
+    
+    public func addParallax(horizontalSpan: Int = 20, verticalSpan: Int = 20) {
+        let group = UIMotionEffectGroup()
+        group.motionEffects = [
+            UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis, span: horizontalSpan),
+            UIInterpolatingMotionEffect(keyPath: "center.y", type: .tiltAlongVerticalAxis, span: verticalSpan)
+        ]
+        addMotionEffect(group)
+    }
+}

@@ -115,6 +115,7 @@
 		EBC0A4571DD82E4252B6CF4DFCFCC5C8 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D96BCCD07E9FFAA2B6D9B05305956D /* MD5.swift */; };
 		EF9103A06C99DB11BAC1C4502077910F /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC23DDE8F4709B0B949CDBDF020561 /* BatchedCollection.swift */; };
 		F051D55F9B61B1A99C0373BB34596CCE /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE9F2C6D2CF5D2334A2251D3C67F56 /* Updatable.swift */; };
+		F338D49621C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338D49521C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift */; };
 		F8D63D2D788CE411008A021E415232B5 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4011508566410488358B0A8AEDD5B /* ChaCha20.swift */; };
 		F98CA00700E3B8A4A0F021B302F11698 /* UIPageViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8240B1BFB05547D94BA5D997730EE /* UIPageViewController+Nifty.swift */; };
 		FA87A460FB791C2371DBBA747F949DF2 /* Date+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CED7E3BC0B81585481A4856456582A /* Date+Nifty.swift */; };
@@ -244,7 +245,7 @@
 		A426BC74B10AB01F2019012EB2CF1F3A /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
 		A42CE4A5BFE992EA54448540B3B53E58 /* SHA3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA3.swift; path = Sources/CryptoSwift/SHA3.swift; sourceTree = "<group>"; };
 		A477927A66731E324F29B70BAE470E6C /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
-		A75504D62445EC0DD9EFE3CE90F0D290 /* UIColor+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Nifty.swift"; sourceTree = "<group>"; };
+		A75504D62445EC0DD9EFE3CE90F0D290 /* UIColor+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = "UIColor+Nifty.swift"; sourceTree = "<group>"; tabWidth = 2; };
 		A83B0C5FB8D35B1910AC63E3F8BD1B13 /* ERNiftyExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ERNiftyExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA64F67AEAC152D1FB07689DAAEF824E /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE41D504DA7DBCC452BD622E09F046AD /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
@@ -292,6 +293,7 @@
 		EF0D69C4D88CB7F853B9DEAA2352D550 /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
 		EF8B7F4827B0CB8778D08F545E8DCF74 /* UICollectionView+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Nifty.swift"; sourceTree = "<group>"; };
 		F1F4DD512FFD772ECD391B6003712DCB /* CALayer+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+Nifty.swift"; sourceTree = "<group>"; };
+		F338D49521C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIInterpolatingMotionEffect+Nifty.swift"; sourceTree = "<group>"; };
 		F393BFE3E6DB7999E7E36B2ADB041D2B /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
 		F51FCB1AC1C375BA4593F28EF49B046C /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
 		F89738B5C3A5B0E5EDA0E8905DDFC0E6 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
@@ -578,8 +580,6 @@
 				635B131B9EB2B051ADBB52D31021DBC2 /* NSObject+Nifty.swift */,
 				BA98BAFB26ED869A88C9AA60403E0B09 /* RawRepresentable+Nifty.swift */,
 				7A9CFE11D3B09257C7035D233DA797E9 /* String+Nifty.swift */,
-				A75504D62445EC0DD9EFE3CE90F0D290 /* UIColor+Nifty.swift */,
-				93D67CA6B66DEB375B7F86F8251073A6 /* UIImage+Nifty.swift */,
 			);
 			name = Foundation;
 			path = ERNiftyExtensions/Classes/Foundation;
@@ -619,6 +619,9 @@
 				1ED573676BBC026774E1F0BB0F8DA804 /* NSLayoutConstraint+Nifty.swift */,
 				2FEA43672DA54E19C1C76BA1D7EA09B8 /* UICollectionReusableView+Nifty.swift */,
 				EF8B7F4827B0CB8778D08F545E8DCF74 /* UICollectionView+Nifty.swift */,
+				A75504D62445EC0DD9EFE3CE90F0D290 /* UIColor+Nifty.swift */,
+				93D67CA6B66DEB375B7F86F8251073A6 /* UIImage+Nifty.swift */,
+				F338D49521C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift */,
 				AF7E00D9E1F76048695EF3D25FEC84B0 /* UILabel+Nifty.swift */,
 				68F8240B1BFB05547D94BA5D997730EE /* UIPageViewController+Nifty.swift */,
 				B2035FB51190A522019AB7BA02647326 /* UIScrollView+Nifty.swift */,
@@ -893,6 +896,7 @@
 				3C7876C13FF47CE562656AC41FB76620 /* NSObject+Nifty.swift in Sources */,
 				7829088DB0E7E92FDB97AE246FB7133D /* RawRepresentable+Nifty.swift in Sources */,
 				95812A668BAC313FA06777B1A6C54356 /* String+Nifty.swift in Sources */,
+				F338D49621C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift in Sources */,
 				55A99AF2CC526DCDCBF5A094542EB9F8 /* UICollectionReusableView+Nifty.swift in Sources */,
 				858034F2E81BBDC347B591F76A235F1C /* UICollectionView+Nifty.swift in Sources */,
 				538EB1186FE13FA14B9028AE0485474F /* UIColor+Nifty.swift in Sources */,
