@@ -23,30 +23,7 @@ extension UIView {
         
         return nil
     }
-    
-    @nonobjc public class func fromNib<T : UIView>(_ nibNameOrNil: String? = nil) -> T? {
-        var view: T?
-        let name: String
-        if let nibName = nibNameOrNil {
-            name = nibName
-        } else {
-            // Most nibs are demangled by practice, if not, just declare string explicitly
-            name = T.classString
-        }
-        let nibViews = Bundle.main.loadNibNamed(name, owner: nil, options: nil)
-        for v in nibViews! {
-            if let tog = v as? T {
-                view = tog
-            }
-        }
-        return view
-    }
-    
-    @nonobjc public class func fromNib<T : UIView>(_ nibNameOrNil: String? = nil) -> T {
-        let v: T? = fromNib(nibNameOrNil)
-        return v!
-    }
-    
+        
     public var gradient: CAGradientLayer? {
         
         get { return self.layer.sublayer(withName: "nifty_background_gradient") as? CAGradientLayer }
@@ -211,5 +188,12 @@ extension UIView {
             UIInterpolatingMotionEffect(keyPath: "center.y", type: .tiltAlongVerticalAxis, span: verticalSpan)
         ]
         addMotionEffect(group)
+    }
+    
+    public func removeAllMotionEffects() {
+        
+        let effects = motionEffects
+        
+        for effect in effects { self.removeMotionEffect(effect) }
     }
 }

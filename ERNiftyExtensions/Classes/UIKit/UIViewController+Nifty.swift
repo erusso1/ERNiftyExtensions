@@ -8,40 +8,53 @@
 
 import UIKit
 
+public protocol NibLoadable: NSObjectProtocol {
+  
+  static var nibName: String { get }
+  
+  static func nibInstance() -> Self
+}
+
+extension NibLoadable where Self : UIViewController {
+  
+  public static var nibName: String { return classString }
+  
+  public static func nibInstance() -> Self {
+    
+    return Bundle.main.loadNibNamed(nibName, owner: nil, options: nil)?.first as! Self
+  }
+}
+
+extension NibLoadable where Self : UIView {
+  
+  public static var nibName: String { return classString }
+  
+  public static func nibInstance() -> Self {
+    
+    return Bundle.main.loadNibNamed(nibName, owner: nil, options: nil)?.first as! Self
+  }
+}
+
+public protocol Storyboarded: NSObjectProtocol {
+  
+  static var storyboardIdentifier: String { get }
+  
+  static var storyboardName: String { get }
+  
+  static func storyboardInstance() -> Self
+}
+
+extension Storyboarded where Self : UIViewController {
+  
+  static var storyboardIdentifier: String { return classString }
+
+  static func storyboardInstance() -> Self {
+    
+    return UIStoryboard(name: storyboardName, bundle: .main).instantiateViewController(withIdentifier: storyboardIdentifier) as! Self
+  }
+}
+
 extension UIViewController {
-  
-  @nonobjc class public func fromNib<T : UIViewController>(_ nibNameOrNil: String? = nil) -> T {
-    let v: T? = fromNib(nibNameOrNil)
-    return v!
-  }
-  
-  @nonobjc class public func fromNib<T : UIViewController>(_ nibNameOrNil: String? = nil) -> T? {
-    var view: T?
-    let name: String
-    if let nibName = nibNameOrNil {
-      name = nibName
-    } else {
-      // Most nibs are demangled by practice, if not, just declare string explicitly
-      name = self.classString
-    }
-    let nibViews = Bundle.main.loadNibNamed(name, owner: nil, options: nil)
-    for v in nibViews! {
-      if let tog = v as? T {
-        view = tog
-      }
-    }
-    return view
-  }
-  
-  @nonobjc class public func fromStoryboard<T : UIViewController>(_ storyboard: UIStoryboard) -> T {
-    let v: T? = fromStoryboard(storyboard)
-    return v!
-  }
-  
-  @nonobjc class public func fromStoryboard<T : UIViewController>(_ storyboard: UIStoryboard) -> T? {
-    let v:T? = storyboard.viewController(withIdentifier: T.classString)
-    return v
-  }
   
     public func presentSettingsAlertWithTitle(_ title: String, message: String, cancelHandler: ((UIAlertAction) -> Void)? = nil) {
     
