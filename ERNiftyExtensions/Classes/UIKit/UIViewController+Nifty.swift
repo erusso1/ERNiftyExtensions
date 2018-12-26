@@ -56,6 +56,42 @@ extension Storyboarded where Self : UIViewController {
 
 extension UIViewController {
   
+  @nonobjc class public func fromNib<T : UIViewController>(_ nibNameOrNil: String? = nil) -> T {
+    let v: T? = fromNib(nibNameOrNil)
+    return v!
+  }
+  
+  @nonobjc class public func fromNib<T : UIViewController>(_ nibNameOrNil: String? = nil) -> T? {
+    var view: T?
+    let name: String
+    if let nibName = nibNameOrNil {
+      name = nibName
+    } else {
+      // Most nibs are demangled by practice, if not, just declare string explicitly
+      name = self.classString
+    }
+    let nibViews = Bundle.main.loadNibNamed(name, owner: nil, options: nil)
+    for v in nibViews! {
+      if let tog = v as? T {
+        view = tog
+      }
+    }
+    return view
+  }
+  
+  @nonobjc class public func fromStoryboard<T : UIViewController>(_ storyboard: UIStoryboard) -> T {
+    let v: T? = fromStoryboard(storyboard)
+    return v!
+  }
+  
+  @nonobjc class public func fromStoryboard<T : UIViewController>(_ storyboard: UIStoryboard) -> T? {
+    let v:T? = storyboard.viewController(withIdentifier: T.classString)
+    return v
+  }
+}
+
+extension UIViewController {
+  
     public func presentSettingsAlertWithTitle(_ title: String, message: String, cancelHandler: ((UIAlertAction) -> Void)? = nil) {
     
     let alertController = UIAlertController( title: title, message: message, preferredStyle: .alert)

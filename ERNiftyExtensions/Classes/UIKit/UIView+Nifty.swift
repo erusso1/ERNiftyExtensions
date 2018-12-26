@@ -46,7 +46,7 @@ extension UIView {
         }
     }
     
-    public var snapshotImage:UIImage? {
+    public var snapshotImage: UIImage? {
         
         UIGraphicsBeginImageContextWithOptions(bounds.size, false, UIScreen.main.scale)
         layer.render(in: UIGraphicsGetCurrentContext()!)
@@ -55,7 +55,10 @@ extension UIView {
         return screenshot
     }
     
-    public var internalCenter:CGPoint {return CGPoint(x: frame.size.width/2, y: frame.size.height/2)}
+    public var internalCenter: CGPoint {return CGPoint(x: frame.size.width/2, y: frame.size.height/2)}
+}
+
+extension UIView {
     
     public func rotateByDegrees(_ degrees: CGFloat) {
         let radians:CGFloat = ((degrees * CGFloat(Double.pi)) / 180.0)
@@ -106,6 +109,32 @@ extension UIView {
         animation.toValue = NSValue(cgPoint: CGPoint(x: self.center.x + translation, y: self.center.y))
         
         self.layer.add(animation, forKey: "position")
+    }
+}
+
+extension UIView {
+    
+    @nonobjc public class func fromNib<T : UIView>(_ nibNameOrNil: String? = nil) -> T? {
+        var view: T?
+        let name: String
+        if let nibName = nibNameOrNil {
+            name = nibName
+        } else {
+            // Most nibs are demangled by practice, if not, just declare string explicitly
+            name = T.classString
+        }
+        let nibViews = Bundle.main.loadNibNamed(name, owner: nil, options: nil)
+        for v in nibViews! {
+            if let tog = v as? T {
+                view = tog
+            }
+        }
+        return view
+    }
+    
+    @nonobjc public class func fromNib<T : UIView>(_ nibNameOrNil: String? = nil) -> T {
+        let v: T? = fromNib(nibNameOrNil)
+        return v!
     }
 }
 
