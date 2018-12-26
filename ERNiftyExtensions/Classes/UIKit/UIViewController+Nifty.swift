@@ -46,9 +46,9 @@ public protocol Storyboarded: NSObjectProtocol {
 
 extension Storyboarded where Self : UIViewController {
   
-  static var storyboardIdentifier: String { return classString }
+  public static var storyboardIdentifier: String { return classString }
 
-  static func storyboardInstance() -> Self {
+  public static func storyboardInstance() -> Self {
     
     return UIStoryboard(name: storyboardName, bundle: .main).instantiateViewController(withIdentifier: storyboardIdentifier) as! Self
   }
