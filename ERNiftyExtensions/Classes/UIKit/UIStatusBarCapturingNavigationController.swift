@@ -6,10 +6,11 @@
 //
 
 import Foundation
+import UIKit
 
-class UIStatusBarCapturingNavigationController: UINavigationController {
+open class UIStatusBarCapturingNavigationController: UINavigationController {
     
-    override func popToRootViewController(animated: Bool) -> [UIViewController]? {
+    open override func popToRootViewController(animated: Bool) -> [UIViewController]? {
         
         let vcs = super.popToRootViewController(animated: animated)
         
@@ -18,7 +19,7 @@ class UIStatusBarCapturingNavigationController: UINavigationController {
         return vcs
     }
     
-    override func popViewController(animated: Bool) -> UIViewController? {
+    open override func popViewController(animated: Bool) -> UIViewController? {
         
         let vc = super.popViewController(animated: animated)
         
@@ -27,14 +28,14 @@ class UIStatusBarCapturingNavigationController: UINavigationController {
         return vc
     }
     
-    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    open override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         super.pushViewController(viewController, animated: animated)
         
         self.setNeedsStatusBarAppearanceUpdate()
     }
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
+    open override var preferredStatusBarStyle: UIStatusBarStyle {
         
         return viewControllers.last?.preferredStatusBarStyle ?? .default
     }
