@@ -10,6 +10,12 @@ import UIKit
 
 open class UIStatusBarCapturingNavigationController: UINavigationController {
     
+    open override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        self.modalPresentationCapturesStatusBarAppearance = true
+    }
+    
     open override func popToRootViewController(animated: Bool) -> [UIViewController]? {
         
         let vcs = super.popToRootViewController(animated: animated)
