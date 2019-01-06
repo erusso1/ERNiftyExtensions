@@ -46,11 +46,47 @@ public protocol Storyboarded: NSObjectProtocol {
 
 extension Storyboarded where Self : UIViewController {
   
-  static var storyboardIdentifier: String { return classString }
+  public static var storyboardIdentifier: String { return classString }
 
-  static func storyboardInstance() -> Self {
+  public static func storyboardInstance() -> Self {
     
     return UIStoryboard(name: storyboardName, bundle: .main).instantiateViewController(withIdentifier: storyboardIdentifier) as! Self
+  }
+}
+
+extension UIViewController {
+  
+  @nonobjc class public func fromNib<T : UIViewController>(_ nibNameOrNil: String? = nil) -> T {
+    let v: T? = fromNib(nibNameOrNil)
+    return v!
+  }
+  
+  @nonobjc class public func fromNib<T : UIViewController>(_ nibNameOrNil: String? = nil) -> T? {
+    var view: T?
+    let name: String
+    if let nibName = nibNameOrNil {
+      name = nibName
+    } else {
+      // Most nibs are demangled by practice, if not, just declare string explicitly
+      name = self.classString
+    }
+    let nibViews = Bundle.main.loadNibNamed(name, owner: nil, options: nil)
+    for v in nibViews! {
+      if let tog = v as? T {
+        view = tog
+      }
+    }
+    return view
+  }
+  
+  @nonobjc class public func fromStoryboard<T : UIViewController>(_ storyboard: UIStoryboard) -> T {
+    let v: T? = fromStoryboard(storyboard)
+    return v!
+  }
+  
+  @nonobjc class public func fromStoryboard<T : UIViewController>(_ storyboard: UIStoryboard) -> T? {
+    let v:T? = storyboard.viewController(withIdentifier: T.classString)
+    return v
   }
 }
 
