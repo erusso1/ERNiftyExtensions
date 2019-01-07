@@ -9,19 +9,19 @@
 import Foundation
 import UIKit
 
-class UICopyableLabel: UILabel {
+open class UICopyableLabel: UILabel {
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         sharedInit()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         sharedInit()
     }
     
-    func sharedInit() {
+    private func sharedInit() {
         
         isUserInteractionEnabled = true
         
@@ -30,7 +30,7 @@ class UICopyableLabel: UILabel {
         self.addGestureRecognizer(longPress)
     }
     
-    @objc func showMenu(_ sender: AnyObject?) {
+    @objc private func showMenu(_ sender: AnyObject?) {
         becomeFirstResponder()
         let menu = UIMenuController.shared
         if !menu.isMenuVisible {
@@ -39,7 +39,7 @@ class UICopyableLabel: UILabel {
         }
     }
     
-    override func copy(_ sender: Any?) {
+    open override func copy(_ sender: Any?) {
         
         let board = UIPasteboard.general
         board.string = text
@@ -47,9 +47,9 @@ class UICopyableLabel: UILabel {
         menu.setMenuVisible(false, animated: true)
     }
 
-    override var canBecomeFirstResponder: Bool { return true }
+    open override var canBecomeFirstResponder: Bool { return true }
     
-    override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+    open override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         
         if action == #selector(copy(_:)) {
             
