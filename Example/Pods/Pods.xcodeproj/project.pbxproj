@@ -116,6 +116,7 @@
 		EF9103A06C99DB11BAC1C4502077910F /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC23DDE8F4709B0B949CDBDF020561 /* BatchedCollection.swift */; };
 		F051D55F9B61B1A99C0373BB34596CCE /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE9F2C6D2CF5D2334A2251D3C67F56 /* Updatable.swift */; };
 		F338D49621C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338D49521C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift */; };
+		F3B09FCF21E40E3300EC11D6 /* UICopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B09FCE21E40E3200EC11D6 /* UICopyableLabel.swift */; };
 		F3F6827D21E1BAC60041FE56 /* UIStatusBarCapturingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F6827C21E1BAC60041FE56 /* UIStatusBarCapturingNavigationController.swift */; };
 		F8D63D2D788CE411008A021E415232B5 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4011508566410488358B0A8AEDD5B /* ChaCha20.swift */; };
 		F98CA00700E3B8A4A0F021B302F11698 /* UIPageViewController+Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8240B1BFB05547D94BA5D997730EE /* UIPageViewController+Nifty.swift */; };
@@ -296,6 +297,7 @@
 		F1F4DD512FFD772ECD391B6003712DCB /* CALayer+Nifty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+Nifty.swift"; sourceTree = "<group>"; };
 		F338D49521C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIInterpolatingMotionEffect+Nifty.swift"; sourceTree = "<group>"; };
 		F393BFE3E6DB7999E7E36B2ADB041D2B /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
+		F3B09FCE21E40E3200EC11D6 /* UICopyableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICopyableLabel.swift; sourceTree = "<group>"; };
 		F3F6827C21E1BAC60041FE56 /* UIStatusBarCapturingNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStatusBarCapturingNavigationController.swift; sourceTree = "<group>"; };
 		F51FCB1AC1C375BA4593F28EF49B046C /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
 		F89738B5C3A5B0E5EDA0E8905DDFC0E6 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
@@ -622,6 +624,7 @@
 				2FEA43672DA54E19C1C76BA1D7EA09B8 /* UICollectionReusableView+Nifty.swift */,
 				EF8B7F4827B0CB8778D08F545E8DCF74 /* UICollectionView+Nifty.swift */,
 				A75504D62445EC0DD9EFE3CE90F0D290 /* UIColor+Nifty.swift */,
+				F3B09FCE21E40E3200EC11D6 /* UICopyableLabel.swift */,
 				93D67CA6B66DEB375B7F86F8251073A6 /* UIImage+Nifty.swift */,
 				F338D49521C194C9009364DE /* UIInterpolatingMotionEffect+Nifty.swift */,
 				AF7E00D9E1F76048695EF3D25FEC84B0 /* UILabel+Nifty.swift */,
@@ -896,6 +899,7 @@
 				E1685075638FDD7EEE6C3F821AE079E1 /* Notification.Name+Nifty.swift in Sources */,
 				7DC8949F1E8CE2D5FF36E868E13DD52D /* NSLayoutConstraint+Nifty.swift in Sources */,
 				6EC576BEB2D3F8BB43CE0478FF163176 /* NSMutableAttributedString+Nifty.swift in Sources */,
+				F3B09FCF21E40E3300EC11D6 /* UICopyableLabel.swift in Sources */,
 				3C7876C13FF47CE562656AC41FB76620 /* NSObject+Nifty.swift in Sources */,
 				7829088DB0E7E92FDB97AE246FB7133D /* RawRepresentable+Nifty.swift in Sources */,
 				95812A668BAC313FA06777B1A6C54356 /* String+Nifty.swift in Sources */,
