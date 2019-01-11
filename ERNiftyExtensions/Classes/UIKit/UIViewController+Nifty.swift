@@ -101,8 +101,8 @@ extension UIViewController {
     let openAction = UIAlertAction(title: "Open Settings", style: .default) { (action) in
       
       guard let url = URL(string: UIApplication.openSettingsURLString) else {return}
-      
-      NotificationCenter.default.post(name: .erNiftyOpenSettingsNotification, object: url)
+     
+      UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     
     alertController.addAction(cancelAction)
