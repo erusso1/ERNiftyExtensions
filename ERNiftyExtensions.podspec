@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
       
       foundation.ios.deployment_target = '10.0'
       
-      foundation.watchos.deployment_target = '4.0'
+      #foundation.watchos.deployment_target = '4.0'
       
       foundation.source_files = 'ERNiftyExtensions/Classes/Foundation/*.{swift}'
       
