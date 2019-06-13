@@ -174,6 +174,8 @@ extension UIView {
         
         guard let containingView = self.superview else {return}
         
+        self.translatesAutoresizingMaskIntoConstraints = false
+        
         let attributes: [NSLayoutConstraint.Attribute] = [.top, .bottom, .left, .right]
         
         attributes.forEach { attribute in
