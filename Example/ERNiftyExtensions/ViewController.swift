@@ -16,7 +16,9 @@ class ViewController: UIViewController {
 
         let view = UIView(frame: CGRect(x: 100, y: 100, width: 200, height: 200))
         
-        view.backgroundColor = .blue
+        //view.backgroundColor = .white
+        view.backgroundColor = .gradient(style: .radial, frame: view.bounds, colors: [])
+        //view.borderWidth = 2
         view.cornerRadius = 12
         
         self.view.addSubview(view)
