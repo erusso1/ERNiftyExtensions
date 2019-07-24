@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   s.default_subspec = 'Foundation'
   
-  s.source_files = 'stat/Classes/**/*'
+  s.source_files = 'ERNiftyExtensions/Classes/**/*'
   
   s.subspec 'Foundation' do |foundation|
       

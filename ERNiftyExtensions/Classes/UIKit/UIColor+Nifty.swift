@@ -69,7 +69,7 @@ extension UIColor {
       
       UIGraphicsBeginImageContextWithOptions(frame.size, false, UIScreen.main.scale)
       
-      var locations: [CGFloat] = {
+      let locations: [CGFloat] = {
         
         var tmp: [CGFloat] = []
         
