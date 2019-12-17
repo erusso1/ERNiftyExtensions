@@ -21,6 +21,10 @@ open class UICopyableLabel: UILabel {
         sharedInit()
     }
     
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: UIMenuController.willHideMenuNotification, object: nil)
+    }
+    
     private func sharedInit() {
         
         isUserInteractionEnabled = true
@@ -41,6 +45,15 @@ open class UICopyableLabel: UILabel {
             menu.setTargetRect(bounds, in: self)
             menu.setMenuVisible(true, animated: true)
         }
+    }
+    
+    @objc func dismissMenu() {
+        self.alpha = 1
+    }
+    
+    open override func becomeFirstResponder() -> Bool {
+        NotificationCenter.default.addObserver(self, selector: #selector(dismissMenu), name: UIMenuController.willHideMenuNotification, object: nil)
+        return super.becomeFirstResponder()
     }
     
     open override func copy(_ sender: Any?) {
