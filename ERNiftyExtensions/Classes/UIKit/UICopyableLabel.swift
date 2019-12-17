@@ -30,8 +30,12 @@ open class UICopyableLabel: UILabel {
         self.addGestureRecognizer(longPress)
     }
     
-    @objc private func showMenu(_ sender: AnyObject?) {
+    @objc private func showMenu(_ recognizer:UILongPressGestureRecognizer) {
         becomeFirstResponder()
+        if recognizer.state == .began {
+            self.alpha = 0.6
+        }
+        
         let menu = UIMenuController.shared
         if !menu.isMenuVisible {
             menu.setTargetRect(bounds, in: self)
@@ -40,7 +44,7 @@ open class UICopyableLabel: UILabel {
     }
     
     open override func copy(_ sender: Any?) {
-        
+        self.alpha = 1
         let board = UIPasteboard.general
         board.string = text
         let menu = UIMenuController.shared
@@ -59,3 +63,5 @@ open class UICopyableLabel: UILabel {
         return false
     }
 }
+
+
