@@ -49,6 +49,7 @@ open class UICopyableLabel: UILabel {
     
     @objc func dismissMenu() {
         self.alpha = 1
+        NotificationCenter.default.removeObserver(self, name: UIMenuController.willHideMenuNotification, object: nil)
     }
     
     open override func becomeFirstResponder() -> Bool {
@@ -58,10 +59,13 @@ open class UICopyableLabel: UILabel {
     
     open override func copy(_ sender: Any?) {
         self.alpha = 1
+        
         let board = UIPasteboard.general
         board.string = text
         let menu = UIMenuController.shared
         menu.setMenuVisible(false, animated: true)
+        
+        NotificationCenter.default.removeObserver(self, name: UIMenuController.willHideMenuNotification, object: nil)
     }
 
     open override var canBecomeFirstResponder: Bool { return true }
